@@ -1,15 +1,14 @@
 /* CHALLENGE DESCRIPTION
 
-Oh no!
-Some really funny web dev gave you a sequence of numbers from his API response as an sequence of strings!
+Some really funny web dev gave you a sequence of numbers from her API response as a sequence of strings.
 
 You need to cast the whole array to the correct type.
 
 Create the function that takes as a parameter a sequence of numbers represented as strings and outputs a sequence of numbers.
 
-ie:["1", "2", "3"] to [1, 2, 3]
+For example, ["1", "2", "3"] to [1, 2, 3].
 
-Note that you can receive floats as well.
+Note: You can receive floats as well.
 */
 
 /* PREP
@@ -22,7 +21,7 @@ Examples
     // ["1", "2", "3", "4"]
         // [1, 2, 3, 4]
     //  ["5.5", "6.6", "7.7"]
-        // ["5.5", "6.6", "7.7"]
+        // [5.5, 6.6, 7.7]
 Pseudocode
     // function that takes in one parameter, array of strings
     // map the array and turn each element into a number
