@@ -1,6 +1,6 @@
-/* CHALLENGE DESCRIPTION (ARRAY LADDER)
+/* CHALLENGE DESCRIPTION
 
-Given a 2D (nested) list ( array, vector, .. ) of size m * n, your task is to find the sum of the minimum values in each row.
+Given a nested array, your task is to find the sum of the minimum values in each row.
 
 For example:
 [ [ 1, 2, 3, 4, 5 ]        #  minimum value of row is 1
