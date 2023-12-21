@@ -12,7 +12,7 @@ Examples: (Input --> Output)
 */
 
 // MY SOLUTION
-const returnLineNumbering = arr => arr.map((index, line) => `${index + 1}: ${line}`);
+const returnLineNumbering = arr => arr.map((line, index) => `${index + 1}: ${line}`);
 
 console.log(returnLineNumbering(["a", "b", "c"]), ["1: a", "2: b", "3: c"]);
 console.log(returnLineNumbering([]), []);
