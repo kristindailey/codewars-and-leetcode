@@ -1,10 +1,10 @@
-/* CHALLENGE DESCRIPTION (STRING LADDER)
+/* CHALLENGE DESCRIPTION
 
-Return the number (count) of vowels in the given string.
+Return the number of vowels in the given string.
 
-We will consider a, e, i, o, u as vowels for this Kata (but not y).
+We will consider a, e, i, o, u as vowels for this kata (but not y).
 
-The input string will only consist of lower case letters and/or spaces.
+The input string will only consist of lowercase letters and/or spaces.
 */
 
 /* PREP
