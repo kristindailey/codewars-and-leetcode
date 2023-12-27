@@ -30,7 +30,7 @@ function reverseStr(str) {
 
 console.log(reverseStr("This is an example!"), "sihT si na !elpmaxe");
 console.log(reverseStr("double  spaces"), "elbuod  secaps");
-console.log(reverseStr("H e l l O"), "O l l e H");
+console.log(reverseStr("Hello"), "olleH");
 
 // OTHER SOLUTIONS
 function reverseWords(str) {
