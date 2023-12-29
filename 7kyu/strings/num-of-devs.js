@@ -12,12 +12,13 @@ let list1 = [
   { firstName: 'Shufen', lastName: 'L.', country: 'Taiwan', continent: 'Asia', age: 35, language: 'HTML' },
   { firstName: 'Sumayah', lastName: 'M.', country: 'Tajikistan', continent: 'Asia', age: 30, language: 'CSS' }
 ];
+
 Your function should return number 1.
 
 If there are no JavaScript developers from Europe, your function should return 0.
 
 Notes:
-The format of the strings will always be "Europe" and "JavaScript".
+The format of the strings will always be "Europe" and "JavaScript."
 Data will always be valid and uniform as in the example above.
 */
 
