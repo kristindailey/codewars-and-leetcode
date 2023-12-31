@@ -33,7 +33,7 @@ Pseudocode
 
 // MY SOLUTION
 function returnHighAndLow(str) {
-    const arr = str.split(" ").map(Number);
+    const arr = str.split(" ");
     const max = Math.max(...arr);
     const min = Math.min(...arr);
     return `${max} ${min}`;
@@ -50,6 +50,6 @@ function highAndLow(numbers) {
 }
 
 function highAndLow(numbers){
-    numbers = numbers.split(" ").map(Number);
+    numbers = numbers.split(" ");
     return Math.max.apply(0, numbers) + " " + Math.min.apply(0, numbers);
 }
