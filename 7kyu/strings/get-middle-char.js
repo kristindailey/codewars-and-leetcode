@@ -1,28 +1,28 @@
 /* CHALLENGE DESCRIPTION
 
-You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
+You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle two characters.
 
-#Examples:
-Kata.getMiddle("test") should return "es"  
+Examples:
+getMiddle("test") should return "es"  
     // length = 4
     // return str[1] and str[2]
 
-Kata.getMiddle("testing") should return "t"
+getMiddle("testing") should return "t"
     // length = 7
     // return str[3]
 
-Kata.getMiddle("middle") should return "dd"
+getMiddle("middle") should return "dd"
     // length = 6
     // return str[2] and str[3]
 
-Kata.getMiddle("A") should return "A"
+getMiddle("A") should return "A"
     // length = 1
     // return str[0]
 
-#Input
-A word (string) of length 0 < str < 1000 (In javascript you may get slightly more than 1000 in some test cases due to an error in the test cases). You do not need to test for this. This is only here to tell you that you do not need to worry about your solution timing out.
+Input:
+A string of length 0 < str < 1000. (In JavaScript you may get slightly more than 1000 in some test cases due to an error in the test cases). You do not need to test for this. This is only here to tell you that you do not need to worry about your solution timing out.
 
-#Output
+Output:
 The middle character(s) of the word represented as a string.
 */
 
