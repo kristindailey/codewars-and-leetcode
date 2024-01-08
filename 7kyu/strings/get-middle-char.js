@@ -32,7 +32,7 @@ The middle character(s) of the word represented as a string.
     // if str.length = even, return 2 middle chars
 
 // MY SOLUTION
-function returnMiddleChar(str){
+function returnMiddleChar(str) {
     // determine if str.length = even or odd
     // if even, return str[str.length / 2 - 1] + str[str.length / 2]
     // if odd, return str[Math.floor(str.length / 2)]
