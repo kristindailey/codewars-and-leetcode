@@ -39,6 +39,10 @@ function returnHighAndLow(str) {
     return `${max} ${min}`;
 }
 
+console.log(returnHighAndLow("1 2 3 4 5"), "5 1");
+console.log(returnHighAndLow("30 32 29 56"), "56 29");
+console.log(returnHighAndLow("1 9 3 4 -5"), "9 -5");
+
 // OTHER SOLUTIONS
 function highAndLow(numbers) {
     numbers = numbers.split(" ");
