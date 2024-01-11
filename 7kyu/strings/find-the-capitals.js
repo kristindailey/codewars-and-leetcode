@@ -31,6 +31,10 @@ const findCapitals = (word) => {
     }, []);
 };
 
+console.log(findCapitals("HeLLo"), [0, 2, 3]);
+console.log(findCapitals("GooDbyE"), [0, 3, 6]);
+console.log(findCapitals(""), []);
+
 // OTHER SOLUTION
 const capitals = (word) => {
     let caps = [];
