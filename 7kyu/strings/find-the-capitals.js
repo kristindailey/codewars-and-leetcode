@@ -24,7 +24,7 @@ Pseudocode
 */
 
 // MY SOLUTION
-const findCapitals = function(word) {
+const findCapitals = (word) => {
     return word.split("").reduce((indices, char, index) => {
         if (char === char.toUpperCase()) indices.push(index);
         return indices;
