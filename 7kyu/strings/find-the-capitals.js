@@ -1,9 +1,9 @@
 /* CHALLENGE DESCRIPTION
 
-Write a function that takes a single non-empty string of only lowercase and uppercase ASCII letters (word) as its argument and returns an ordered list containing the indices of all capital (uppercase) letters in the string.
+Write a function that takes a single non-empty string of only lowercase and uppercase letters as its argument and returns an ordered list containing the indices of all uppercase letters in the string.
 
 Example: (Input --> Output)
-"CodEWaRs" --> [0,3,4,6]
+"CodEWaRs" --> [0, 3, 4, 6]
 */
 
 /* PREP
