@@ -39,5 +39,5 @@ console.log(divCon(["1", "2", "3"]), -6);
 
 // OTHER SOLUTION
 function divCon(x) {
-    return x.reduce((acc, cur) => typeof cur === "number" ? acc + cur : acc - Number(cur), 0);
+    return x.reduce((acc, cur) => typeof cur === "number" ? acc + cur : acc - cur, 0);
 }
