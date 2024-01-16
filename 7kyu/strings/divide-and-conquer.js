@@ -33,6 +33,10 @@ function divCon(arr) {
     return result;
 }
 
+console.log(divCon([1, "2", 3]), 2);
+console.log(divCon(["1", 2, "3"]), -2);
+console.log(divCon(["1", "2", "3"]), -6);
+
 // OTHER SOLUTION
 function divCon(x) {
     return x.reduce((acc, cur) => typeof cur === "number" ? acc + cur : acc - Number(cur), 0);
