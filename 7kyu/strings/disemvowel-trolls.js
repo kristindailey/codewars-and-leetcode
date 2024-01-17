@@ -20,7 +20,7 @@ Returns
     // y is not considered a vowel
 Examples 
     // "That is crazy, silly"
-        // "Tht s crzy slly"
+        // "Tht s crzy, slly"
     //  "Hello world"
         // "Hll wrld"
 Pseudocode 
