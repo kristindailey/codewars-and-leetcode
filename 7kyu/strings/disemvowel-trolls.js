@@ -34,6 +34,10 @@ Pseudocode
 // MY SOLUTION
 const returnNoVowels = str => Array.from(str).filter(letter => !("aeiouAEIOU".includes(letter))).join("");
 
+console.log(returnNoVowels("That is crazy, silly"), "Tht s crzy, slly");
+console.log(returnNoVowels("Hello world"), "Hll wrld");
+console.log(returnNoVowels("Wow"), "Ww");
+
 // OTHER SOLUTION
 function disemvowel(str) {
     const vowels = 'aeiou';
