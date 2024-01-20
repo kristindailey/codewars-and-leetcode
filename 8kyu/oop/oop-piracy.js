@@ -44,7 +44,7 @@ class Ship {
     }
 }
 
-// OTHER SOLUTIONS
+// OTHER SOLUTION
 class Ship {
     constructor(draft, crew) {
       this.draft = draft;
