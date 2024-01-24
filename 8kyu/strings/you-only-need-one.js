@@ -1,8 +1,8 @@
 /* CHALLENGE DESCRIPTION
 
-You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
+You will be given an array and a value. All you need to do is check whether the provided array contains the value.
 
-Array can contain numbers or strings. X can be either.
+The array can contain numbers or strings. The value can be either.
 
 Return true if the array contains the value, false if not.
 */
