@@ -20,12 +20,12 @@ Y is not considered a vowel for this kata.
 // MY SOLUTION
     // replace all "a", "e", "i", "o", "u"
     // return the str
-const shortcut = str => str.replaceAll("a", "").replaceAll("e", "").replaceAll("i", "").replaceAll("o", "").replaceAll("u", "");
+const removeVowels = str => str.replaceAll("a", "").replaceAll("e", "").replaceAll("i", "").replaceAll("o", "").replaceAll("u", "");
 
-console.log(shortcut("haaaaayy"), "hyy");
-console.log(shortcut("hello"), "hll");
-console.log(shortcut("HELLO"), "HELLO");
-console.log(shortcut("codewars"), "cdwrs");
+console.log(removeVowels("haaaaayy"), "hyy");
+console.log(removeVowels("hello"), "hll");
+console.log(removeVowels("HELLO"), "HELLO");
+console.log(removeVowels("codewars"), "cdwrs");
 
 // OTHER SOLUTIONS
 function shortcut(string) {
