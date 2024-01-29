@@ -38,6 +38,10 @@ function points(games) {
     return totalPoints;
 }
 
+console.log(points(["45:45", "52:35", "31:49", "38:35", "42:42"]), 8);
+console.log(points(["35:10", "28:14", "42:17", "31:21", "24:7"]), 15);
+console.log(points(["24:17", "21:21", "14:28", "31:24", "17:17"]), 8);
+
 // OTHER SOLUTIONS
 function points(games) {
     let total = 0;
