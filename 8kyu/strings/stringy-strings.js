@@ -22,8 +22,8 @@ function stringy(size) {
     // add i % 2 to result
     // return result
     let result = "";
-    for (let i = 1; i <= size; i++) {
-        result += i % 2;
+    for (let i = 0; i < size; i++) {
+        result += i % 2 === 0 ? "1" : "0";
     }
     return result;
 }
@@ -36,5 +36,5 @@ console.log(stringy(12), "101010101010");
 const stringy = size => "10".repeat(size).slice(0, size);
 
 function stringy(size) {
-    return Array(size).fill(1).map((el, i) => el = i % 2 ? 0 : 1).join("");
+    return Array(size).fill(0).map((_, i) => i % 2 === 0 ? "1" : "0").join("");
 }
