@@ -36,5 +36,5 @@ console.log(stringy(12), "101010101010");
 const stringy = size => "10".repeat(size).slice(0, size);
 
 function stringy(size) {
-    return Array(size).fill(1).map((el, i) => el = i % 2 ? 0 : 1).join('');
+    return Array(size).fill(1).map((el, i) => el = i % 2 ? 0 : 1).join("");
 }
