@@ -7,10 +7,9 @@ Examples: (input -> output)
 5, "Hello" -> "HelloHelloHelloHelloHello"
 */
 
-
 // MY SOLUTION
-function repeatStr(n, s) {
-    return s.repeat(n);
+function repeatStr(num, str) {
+    return str.repeat(num);
 }
 
 // OTHER SOLUTION
