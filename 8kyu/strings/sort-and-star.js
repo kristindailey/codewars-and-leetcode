@@ -10,5 +10,5 @@ You should not remove or add elements from/to the array.
 // MY SOLUTION
 const twoSort = s => s.sort()[0].split("").join("***");
 
-// OTHER SOLUTIONS
+// OTHER SOLUTION
 const two_Sort = s => [...s.sort()[0]].join("***");
