@@ -15,5 +15,9 @@ function joinWords(words) {
     return words.join(" ");
 }
 
+console.log(joinWords(['hello', 'world', 'this', 'is', 'great']), "hello world this is great");
+console.log(joinWords(["I", "love", "you"]), "I love you");
+console.log(joinWords(["Hello", "world"]), "Hello world");
+
 // OTHER SOLUTIONS
 const smash = words => words.join(" ");
