@@ -11,7 +11,7 @@ Example:
 */
 
 // MY SOLUTION
-function smash(words) {
+function joinWords(words) {
     return words.join(" ");
 }
 
