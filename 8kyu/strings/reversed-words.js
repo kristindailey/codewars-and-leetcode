@@ -33,5 +33,9 @@ function reverseWords(str) {
     return arr.reverse().join(" ");
 }
 
+console.log(reverseWords("The greatest victory is that which requires no battle"), "battle no requires which that is victory greatest The");
+console.log(reverseWords("Welcome to the show"), "show the to Welcome");
+console.log(reverseWords("I love you"), "you love I");
+
 // OTHER SOLUTION
 const reverseWords = str => str.split(" ").reverse().join(" ");
