@@ -10,5 +10,9 @@ function removeFirstAndLastChar(str) {
     return str.slice(1, -1);
 }
 
+console.log(removeFirstAndLastChar("brown"), "row");
+console.log(removeFirstAndLastChar("wow"), "o");
+console.log(removeFirstAndLastChar("to"), "");
+
 // OTHER SOLUTION
 const removeChar = str => str.slice(1, -1);
