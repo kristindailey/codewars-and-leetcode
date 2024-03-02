@@ -6,7 +6,7 @@ You're given one parameter: the original string. You don't have to worry about s
 */
 
 // MY SOLUTION
-function removeChar(str) {
+function removeFirstAndLastChar(str) {
     return str.slice(1, -1);
 }
 
