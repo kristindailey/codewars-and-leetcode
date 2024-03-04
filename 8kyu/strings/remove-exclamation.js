@@ -24,5 +24,9 @@ Pseudocode
 // MY SOLUTION
 const removeExclamationMarks = s => s.replaceAll("!", "");
 
+console.log(removeExclamationMarks("Hello, world!"), "Hello, world");
+console.log(removeExclamationMarks("Wow!! Keep going for it!!!!!"),"Wow Keep going for it");
+console.log(removeExclamationMarks("Hello!!!"), "Hello");
+
 // OTHER SOLUTION
 const removeExclamations = s => s.split("!").join("");
