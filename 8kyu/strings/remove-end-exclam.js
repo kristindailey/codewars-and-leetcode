@@ -28,7 +28,7 @@ console.log(removeEndExclam("Hi!!!"), "Hi!!");
 console.log(removeEndExclam("Hi! Hi!"), "Hi! Hi");
 console.log(removeEndExclam("!Hi!"), "!Hi");
 
-// OTHER SOLUTIONS
+// OTHER SOLUTION
 function remove(s) {
-    return s[s.length - 1] === "!" ? s.slice(0, -1) : s;
+    return s[s.length - 1] === "!" ? s.slice(-1) : s;
 }
