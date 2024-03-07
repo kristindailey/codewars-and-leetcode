@@ -22,5 +22,5 @@ console.log(reverseName("john McClane"), "McClane john");
 console.log(reverseName("kristin Dailey"), "Dailey kristin");
 console.log(reverseName("taylor Swift"), "Swift taylor");
 
-// OTHER SOLUTIONS
+// OTHER SOLUTION
 const reverseName = str => str.split(" ").reverse().join(" ");
