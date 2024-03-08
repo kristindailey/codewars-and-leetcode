@@ -1,4 +1,5 @@
 /* CHALLENGE DESCRIPTION
+
 Write a function that returns a string in which the first name is swapped with the last name.
 
 Example (Input --> Output):
