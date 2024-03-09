@@ -1,6 +1,6 @@
 /* CHALLENGE DESCRIPTION
 
-Write a method to see whether the string is ALL CAPS.
+Write a function to test whether the string is ALL CAPS.
 
 Examples (input -> output):
 "c" -> False
