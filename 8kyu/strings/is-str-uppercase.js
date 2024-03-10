@@ -39,3 +39,7 @@ function isUpperCase(str) {
     }
     return true;
 }
+
+console.log(isUpperCase(""), true);
+console.log(isUpperCase("abc"), false);
+console.log(isUpperCase("XYZ"), true);
