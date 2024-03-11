@@ -33,6 +33,9 @@ Psuedocode
 */
 
 // MY SOLUTION
-String.prototype.isUpperCase = () => {
-    return this === this.toUpperCase();
+function isUpperCase(str) {
+    for (let char of str) {
+        if (char >= "a" && char <= "z") return false;
+    }
+    return true;
 }
