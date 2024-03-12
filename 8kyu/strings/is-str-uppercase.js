@@ -1,6 +1,6 @@
 /* CHALLENGE DESCRIPTION
 
-Create a method to see whether the string is ALL CAPS.
+Write a method to see whether the string is ALL CAPS.
 
 Examples (input -> output):
 "c" -> False
@@ -33,6 +33,6 @@ Psuedocode
 */
 
 // MY SOLUTION
-String.prototype.isUpperCase = function() {
+String.prototype.isUpperCase = () => {
     return this === this.toUpperCase();
 }
