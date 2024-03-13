@@ -33,5 +33,5 @@ console.log(returnGreeting("Julie", "Robert"), "Hello guest");
 console.log(returnGreeting("Julie", "Julie"), "Hello boss");
 console.log(returnGreeting("", "Kristin"), "Hello guest");
 
-// OTHER SOLUTIONS
+// OTHER SOLUTION
 const greet = (name, owner) => `Hello ${name === owner ? 'boss' : 'guest'}`;
