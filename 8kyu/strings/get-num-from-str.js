@@ -11,6 +11,10 @@ function getNumberFromString(s) {
     return Number(s.split("").filter(char => !isNaN(char) && char !== " ").join(""));
 }
 
+console.log(getNumberFromString("hell5o wor6ld"), 56);
+console.log(getNumberFromString("R1ght 0n"), 10);
+console.log(getNumberFromString("w33333e"), 33333);
+
 // OTHER SOLUTIONS
 function getNumberFromString(s) {
     return Number(s.split('').filter(a => a <= '9' && a >= '0').join(''))
