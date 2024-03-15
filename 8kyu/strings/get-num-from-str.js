@@ -1,6 +1,6 @@
 /* CHALLENGE DESCRIPTION
 
-Write a function which removes from string all non-digit characters and parse the remaining to number. E.g: "hell5o wor6ld" -> 56
+Write a function which removes all non-digit characters from a string and parse the remaining string to a number (e.g., "hell5o wor6ld" -> 56).
 
 Function:
 getNumberFromString(s)
