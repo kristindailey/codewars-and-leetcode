@@ -8,13 +8,8 @@ Assume that beast and dish are always lowercase strings, and that each has at le
 */
 
 // MY SOLUTION
-function feast(beast, dish) {
-    let beastFirst = beast[0];
-    let dishFirst = dish[0];
-    let beastLast = beast[beast.length - 1];
-    let dishLast = dish[dish.length - 1];
-    
-    if (beastFirst === dishFirst && beastLast === dishLast) {
+function feast(beast, dish) {    
+    if (beast[0] === dish[0] && beast.slice(-1) === dish.slice(-1)) {
       return true;
     } else {
       return false;
