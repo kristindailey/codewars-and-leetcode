@@ -21,6 +21,10 @@ function feast(beast, dish) {
     }
 }
 
+console.log(feast("great blue heron", "garlic naan"), true);
+console.log(feast("chickadee", "chocolate cake"), true);
+console.log(feast("labrador", "egg rolls"), false);
+
 // OTHER SOLUTIONS
 const feast = (beast, dish) => beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1];
 
