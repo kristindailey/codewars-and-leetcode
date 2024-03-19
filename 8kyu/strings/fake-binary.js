@@ -6,10 +6,10 @@ Note: The input will never be an empty string.
 */
 
 // MY SOLUTION
-function fakeBin(x) {
+function replaceDigits(str) {
     let result = "";
-    for (let i = 0; i < x.length; i++) {
-      if (x[i] < 5) {
+    for (let i = 0; i < str.length; i++) {
+      if (str[i] < 5) {
         result += "0";
       } else {
         result += "1";
@@ -18,9 +18,9 @@ function fakeBin(x) {
     return result;
 }
 
-console.log(fakeBin("12345"), "00001");
-console.log(fakeBin("56789"), "11111");
-console.log(fakeBin("0606"), "0101");
+console.log(replaceDigits("12345"), "00001");
+console.log(replaceDigits("56789"), "11111");
+console.log(replaceDigits("0606"), "0101");
 
 // OTHER SOLUTIONS
 const fakeBin = x => x.split("").map(n => n < 5 ? 0 : 1).join("");
