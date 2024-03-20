@@ -18,6 +18,10 @@ function fakeBin(x) {
     return result;
 }
 
+console.log(fakeBin("12345"), "00001");
+console.log(fakeBin("56789"), "11111");
+console.log(fakeBin("0606"), "0101");
+
 // OTHER SOLUTIONS
 const fakeBin = x => x.split("").map(n => n < 5 ? 0 : 1).join("");
 
