@@ -17,6 +17,10 @@ function doubleChar(str) {
     return result;
 }
 
+console.log(doubleChar("String"), "SSttrriinngg");
+console.log(doubleChar("Hello World"), "HHeelllloo  WWoorrlldd");
+console.log(doubleChar("1234!_ "), "11223344!!__  ");
+
 // OTHER SOLUTIONS
 const doubleChar = str => str.split("").map(x => x + x).join("");
 
