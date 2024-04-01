@@ -17,3 +17,5 @@ function numberToString(num) {
 
 // OTHER SOLUTION
 const numberToString = num => num.toString();
+
+const numberToString = num => String(num);
