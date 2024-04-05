@@ -10,6 +10,9 @@ function booleanToString(b) {
     return b.toString();
 }
 
+console.log(booleanToString(true), "true");
+console.log(booleanToString(false), "false");
+
 // OTHER SOLUTIONS
 function booleanToString(b) {
     return String(b);
@@ -17,10 +20,6 @@ function booleanToString(b) {
 
 function booleanToString(b) {
     return b ? "true" : "false";
-}
-
-function booleanToString(b) {
-    return b.toString();
 }
 
 const booleanToString = b => b.toString();
