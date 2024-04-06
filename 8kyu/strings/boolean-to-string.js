@@ -1,6 +1,9 @@
-// CHALLENGE DESCRIPTION
-// Implement a function which converts the given boolean value into its string representation.
-// Note: Only valid inputs will be given.
+/* CHALLENGE DESCRIPTION
+
+Implement a function which converts the given boolean value into its string representation.
+
+Note: Only valid inputs will be given.
+*/ 
 
 // MY SOLUTION
 function booleanToString(b) {
