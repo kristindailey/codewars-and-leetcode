@@ -1,4 +1,4 @@
-/* CHALLENGE DESCRIPTION (ARRAY LADDER)
+/* CHALLENGE DESCRIPTION
 
 Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
 
@@ -31,10 +31,14 @@ Pseudocode
 */
 
 // MY SOLUTION
-function abbrevName(name) {  
+function abbreviateName(name) {  
     let namesArr = name.toUpperCase().split(" ");
     return `${namesArr[0][0]}.${namesArr[1][0]}`;
 }
+
+console.log(abbreviateName("Sam Harris"), "S.H");
+console.log(abbreviateName("patrick feeney"), "P.F");
+console.log(abbreviateName("MISTER ROGERS"), "M.R");
 
 // OTHER SOLUTIONS
 function abbrevName(name) {
