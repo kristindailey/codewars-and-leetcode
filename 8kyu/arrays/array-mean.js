@@ -36,5 +36,9 @@ function calculateAverage(nums) {
     return sum / nums.length;
 }
 
+console.log(calculateAverage([1, 2, 3, 4, 5]), 3);
+console.log(calculateAverage([10, 20, 30]), 20);
+console.log(calculateAverage([1, 3, 5, 7]), 4);
+
 // OTHER SOLUTIONS
 const findAverage = nums => nums.reduce((a, b) => a + b) / nums.length;
