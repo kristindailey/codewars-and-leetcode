@@ -1,5 +1,7 @@
 /* CHALLENGE DESCRIPTION
+
 I'm new to coding and I want to get the sum of two arrays. Actually, the sum of all their elements. I'll appreciate your help.
+
 P.S. Each array includes only integer numbers. The output is a number too.
 */
 
@@ -12,6 +14,9 @@ P.S. Each array includes only integer numbers. The output is a number too.
 function sumTwoArrays(arr1, arr2) {
   return [...arr1, ...arr2].reduce((a, b) => a + b, 0);
 }
+
+console.log(sumTwoArrays([1, 2, 3, 4], [1]), 11);
+console.log(sumTwoArrays([5, 10], [10]), 25);
 
 // OTHER SOLUTIONS
 const arrayPlusArray = (arr1, arr2) => arr1.concat(arr2).reduce((a, b) => a + b, 0);
