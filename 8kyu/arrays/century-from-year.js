@@ -20,5 +20,9 @@ function calculateCentury(year) {
     return Math.ceil(year / 100);
 }
 
+console.log(calculateCentury(1705), 18);
+console.log(calculateCentury(1900), 19);
+console.log(calculateCentury(1601), 17);
+
 // OTHER SOLUTION
 const returnCentury = year => Math.ceil(year / 100);
