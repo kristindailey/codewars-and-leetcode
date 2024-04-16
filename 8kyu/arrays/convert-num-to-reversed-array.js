@@ -16,6 +16,9 @@ function digitize(n) {
     return myArr.reverse();
 }
 
+console.log(digitize(35231), [1, 3, 2, 5, 3]);
+console.log(digitize(0), [0]);
+
 // OTHER SOLUTIONS
 function digitize(n) {
     return String(n).split("").map(Number).reverse();
