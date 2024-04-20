@@ -18,6 +18,9 @@ function monkeyCount(n) {
     return result;
 }
 
+console.log(monkeyCount(10), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+console.log(monkeyCount(1), [1]);
+
 // OTHER SOLUTIONS
 const monkeyCount = n => Array.from({ length: n }, (_, i) => i + 1);
 
