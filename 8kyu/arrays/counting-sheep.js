@@ -19,7 +19,9 @@ function countSheep(arr) {
       } 
     }
     return sheepPresent;
-  }
+}
+
+console.log(countSheep([true, true, true, false, true, true, true, true, true, false, true, false, true,  false, false, true, true, true, true, true, false, false, true, true]), 17);
 
 // OTHER SOLUTIONS
 const countSheep = arr => arr.filter(s => s).length;
