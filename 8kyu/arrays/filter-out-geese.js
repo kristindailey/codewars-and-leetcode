@@ -19,3 +19,5 @@ function filterOutGeese(arr) {
     const geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
     return arr.filter((el) => !geese.includes(el));
 }
+
+console.log(filterOutGeese(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]), ["Mallard", "Hook Bill", "Crested", "Blue Swedish"]);
