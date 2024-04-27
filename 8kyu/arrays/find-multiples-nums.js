@@ -18,6 +18,9 @@ function findMultiples(integer, limit) {
     return result;
 }
 
+console.log(findMultiples(2, 6), [2, 4, 6]);
+console.log(findMultiples(4, 16), [4, 8, 12, 16]);
+
 // OTHER SOLUTIONS
 const findMultiples = (integer, limit) => Array.from({ length: Math.floor(limit / integer) }, (_, i) => (i + 1) * integer);
 
