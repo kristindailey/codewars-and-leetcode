@@ -24,3 +24,7 @@ function getGrade (s1, s2, s3) {
       return "F";
     }
 }
+
+console.log(getGrade(50, 50, 50), "F");
+console.log(getGrade(90, 89, 87), "B");
+console.log(getGrade(70, 69, 58), "D");
