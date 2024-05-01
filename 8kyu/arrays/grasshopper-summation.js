@@ -16,5 +16,8 @@ const summation = (num) => {
     return sum;
 }
 
+console.log(summation(2), 3);
+console.log(summation(8), 36);
+
 // OTHER SOLUTION
 const sum = n => n * (n + 1) / 2;
