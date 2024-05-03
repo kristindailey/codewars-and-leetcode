@@ -10,6 +10,8 @@ Same goes for all the other arrays/lists that you will get in the tests. You hav
 // MY SOLUTION
 const fixTheMeerkat = arr => [arr[2], arr[1], arr[0]];
 
+console.log(fixTheMeerkat(["tail", "body", "head"]), ["head", "body", "tail"]);
+
 // OTHER SOLUTIONS
 const fixMeer = arr => arr.reverse();
 
