@@ -19,6 +19,10 @@ function litres(time) {
     return Math.floor(time * 0.5);
 }
 
+console.log(litres(3), 1);
+console.log(litres(6.7), 3);
+console.log(litres(11.8), 5);
+
 // OTHER SOLUTIONS
 const litres = time => Math.floor(time / 2);
 
