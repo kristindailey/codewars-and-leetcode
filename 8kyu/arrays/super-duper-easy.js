@@ -13,6 +13,11 @@ function problem(x) {
     }
 }
 
+console.log(problem("10"), "Error");
+console.log(problem(10), 506);
+console.log(problem("Hello"), "Error");
+console.log(problem(0), 6);
+
 // OTHER SOLUTIONS
 const problem = x => typeof x === "string" ? "Error" : x * 50 + 6;
 
