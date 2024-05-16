@@ -29,6 +29,9 @@ function warnTheSheep(queue) {
     }
 }
 
+console.log(warnTheSheep(["sheep", "sheep", "sheep", "wolf", "sheep"]), "Oi! Sheep number 1! You are about to be eaten by a wolf!");
+console.log(warnTheSheep(["sheep", "sheep", "wolf"]), "Pls go away and stop eating my sheep");
+
 // OTHER SOLUTIONS
 function warnTheSheep(queue) {
     const position = queue.reverse().indexOf("wolf");
