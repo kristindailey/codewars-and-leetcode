@@ -45,6 +45,10 @@ function squareOrSquareRoot(array) {
     }
     return newArr;
 }
+
+console.log(squareOrSquareRoot([10, 5, 4, 2, 1]), [100, 25, 2, 4, 1]);
+console.log(squareOrSquareRoot([25, 49, 64]), [5, 7, 8]);
+console.log(squareOrSquareRoot([4, 3, 9, 7, 2, 1]), [2, 9, 3, 49, 4, 1]);
  
 // OTHER SOLUTIONS
 const squareOrSquareRoot = array => array.map(a => Math.sqrt(a) % 1 == 0 ? Math.sqrt(a) : (a * a));
