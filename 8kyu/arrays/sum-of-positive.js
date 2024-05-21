@@ -18,6 +18,10 @@ function positiveSum(arr) {
     return sum;
 }
 
+console.log(positiveSum([1, -4, 7, 12]), 20);
+console.log(positiveSum([]), 0);
+console.log(positiveSum([-1, 4, -7, 12]), 16);
+
 // OTHER SOLUTIONS
 const positiveSum = arr => arr.reduce((a, b) => a + (b > 0 ? b : 0), 0);
 
