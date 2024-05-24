@@ -4,7 +4,7 @@ You get an array of numbers. Return the sum of all of the positive ones.
 
 Example: [1, -4, 7, 12] => 1 + 7 + 12 = 20
 
-Note: If there is nothing to sum, the sum is default to 0.
+Note: If there is nothing to sum, the sum should default to 0.
 */
 
 // MY SOLUTION
