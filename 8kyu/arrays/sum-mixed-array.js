@@ -26,10 +26,10 @@ Pseudocode
 */
 
 // MY SOLUTION
-function sumMix(x) {
+function sumMix(arr) {
     let sum = 0;
-    for (let i = 0; i < x.length; i++) {
-      sum += Number(x[i]);
+    for (let i = 0; i < arr.length; i++) {
+      sum += Number(arr[i]);
     }
     return sum;
 }
