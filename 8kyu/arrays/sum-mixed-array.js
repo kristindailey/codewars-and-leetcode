@@ -50,5 +50,3 @@ function sumMix(x) {
     }
     return result;
 }
-
-const sumMix = x => eval(x.join("+"));
