@@ -34,6 +34,10 @@ function sumMix(x) {
     return sum;
 }
 
+console.log(sumMix(["22", 11, "10"]), 43);
+console.log(sumMix(["0", "1", "0"]), 1);
+console.log(sumMix([1, 2, "3"]), 6);
+
 // OTHER SOLUTIONS
 const sumMix = x => x.map(a => +a).reduce((a, b) => a + b, 0);
 
