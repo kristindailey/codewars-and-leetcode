@@ -1,8 +1,8 @@
 /* CHALLENGE DESCRIPTION
 
-Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
+Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers, then you should return 0.
 
-Examples
+Examples:
 Input: [1, 5.2, 4, 0, -1]
 Output: 9.2
 
@@ -23,7 +23,7 @@ Advanced users may find this extremely easy and can easily write this in one lin
 */
 
 // MY SOLUTION
-function sum(numbers) {
+function returnSum(numbers) {
     let sum = 0;
     for (let i = 0; i < numbers.length; i++) {
       sum += numbers[i];
@@ -31,5 +31,9 @@ function sum(numbers) {
     return sum;
 }
 
-// OTHER SOLUTIONS
+console.log(returnSum([1, 5.2, 4, 0, -1]), 9.2);
+console.log(returnSum([]), 0);
+console.log(returnSum([-2.398]), -2.398);
+
+// OTHER SOLUTION
 const sum = numbers => numbers.reduce((a, b) => a + b, 0);
