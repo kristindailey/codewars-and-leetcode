@@ -10,6 +10,10 @@ const stringToNumber = (str) => {
     return Number(str);
 }
 
+console.log(stringToNumber("12"), 12);
+console.log(stringToNumber("-1"), -1);
+console.log(stringToNumber("0"), 0);
+
 // OTHER SOLUTIONS
 const string_ToNumber = str => Number(str);
 
