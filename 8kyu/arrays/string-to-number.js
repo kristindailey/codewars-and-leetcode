@@ -6,7 +6,7 @@ Note: All inputs will be strings, and every string is a perfectly valid represen
 */
 
 // MY SOLUTION
-const stringToNumber = function(str) {
+const stringToNumber = (str) => {
     return Number(str);
 }
 
