@@ -13,6 +13,10 @@ function squareSum(numbers) {
     return sum;
 }
 
+console.log(squareSum([2, 5]), 29);
+console.log(squareSum([3, 3]), 18);
+console.log(squareSum([4, 5]), 41);
+
 // OTHER SOLUTIONS
 const squareSum = numbers => numbers.reduce((sum, num) => sum + (num * num), 0);
 
