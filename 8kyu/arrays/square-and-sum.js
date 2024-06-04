@@ -17,7 +17,7 @@ function squareSum(numbers) {
 const squareSum = numbers => numbers.reduce((sum, num) => sum + (num * num), 0);
 
 function squareSum(numbers) {
-    return numbers.reduce(function(sum, n) {
+    return numbers.reduce((sum, n) => {
       return (n * n) + sum;
     }, 0);
 }
