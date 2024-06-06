@@ -22,20 +22,4 @@ console.log(findSmallestInt([0, 50, -50]), -50);
 // OTHER SOLUTIONS
 const findSmallestInt = arr => Math.min(...arr);
 
-class SmallestIntegerFinder {
-    findSmallestInt(args) {
-      return Math.min(...args);
-    }
-}
-
-class SmallestIntegerFinder {
-    findSmallestInt(args) {
-      return args.sort((a, b) => a - b)[0];
-    }
-}
-
-class SmallestIntegerFinder {
-    findSmallestInt(args) {
-      return Math.min.apply(null, args);
-    }
-}
+const findSmallestInteger = arr => arr.sort((a, b) => a - b)[0];
