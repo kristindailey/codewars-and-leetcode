@@ -15,7 +15,13 @@ function findSmallestInt(arr) {
     return min;
 }
 
+console.log(findSmallestInt([34, 15, 88, 2]), 2);
+console.log(findSmallestInt([34, -345, -1, 100]), -345);
+console.log(findSmallestInt([0, 50, -50]), -50);
+
 // OTHER SOLUTIONS
+const findSmallestInt = arr => Math.min(...arr);
+
 class SmallestIntegerFinder {
     findSmallestInt(args) {
       return Math.min(...args);
