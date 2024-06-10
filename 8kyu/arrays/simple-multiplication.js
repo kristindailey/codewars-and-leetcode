@@ -1,5 +1,8 @@
-// CHALLENGE DESCRIPTION
-// This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+/* CHALLENGE DESCRIPTION
+
+This kata is about multiplying a given number by 8 if it is an even number and by 9 otherwise.
+
+*/
 
 // MY SOLUTION
 function simpleMultiplication(number) {
