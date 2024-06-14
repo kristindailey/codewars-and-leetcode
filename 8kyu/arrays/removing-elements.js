@@ -9,7 +9,7 @@ None of the arrays will be empty, so you don't have to worry about that!
 */
 
 // MY SOLUTION
-function removeEveryOther(arr) {
+function removeEveryOtherEl(arr) {
     for (let i = arr.length - 1; i >= 0; i--) {
       if (i % 2 === 1) { 
         arr.splice(i, 1);
@@ -17,6 +17,10 @@ function removeEveryOther(arr) {
     }
     return arr;
 }
+
+console.log(removeEveryOtherEl(["Keep", "Remove", "Keep", "Remove", "Keep"]), ["Keep", "Keep", "Keep"]);
+console.log(removeEveryOtherEl(["Keep", "Remove"]), ["Keep"]);
+console.log(removeEveryOtherEl([0, 1, 0, 1, 0, 1]), [0, 0, 0]);
 
 // OTHER SOLUTIONS
 const removeEveryOther = arr => arr.filter((_, i) => (i % 2 === 0));
