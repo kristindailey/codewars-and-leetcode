@@ -19,7 +19,7 @@ function removeEveryOther(arr) {
 }
 
 // OTHER SOLUTIONS
-const removeEveryOther = arr => arr.filter((_, i) => !(i % 2));
+const removeEveryOther = arr => arr.filter((_, i) => (i % 2 === 0));
 
 function removeEveryOther(arr) {
     for (let i = 1; i < arr.length; i++) {
@@ -37,7 +37,7 @@ function removeEveryOther(arr) {
 }
 
 function removeEveryOther(arr) {
-    return arr.filter(function(elem, index) {
+    return arr.filter((elem, index) => {
       return index % 2 === 0;
     });
 }
