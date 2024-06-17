@@ -1,4 +1,5 @@
 /* CHALLENGE DESCRIPTION
+
 Define a function that removes duplicates from an array of non-negative numbers and returns it as a result.
 
 The order of the sequence has to stay the same.
@@ -10,7 +11,7 @@ Input -> Output
 */
 
 // MY SOLUTION
-const distinct = a => [...new Set(a)];
+const removeDuplicates = arr => [...new Set(arr)];
 
-// OTHER SOLUTIONS
+// OTHER SOLUTION
 const removeDupes = a => Array.from(new Set(a));
