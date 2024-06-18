@@ -9,6 +9,10 @@ Example:
 // MY SOLUTION
 const returnTheProduct = arr => arr.reduce((a, b) => a * b, 1);
 
+console.log(returnTheProduct([1, 2, 3, 4]), 24);
+console.log(returnTheProduct([5, 5, 5]), 125);
+console.log(returnTheProduct([1, 1, 1, 2]), 2);
+
 // OTHER SOLUTIONS
 function grow(x) {
     return x.reduce((a, b) => a * b, 1);
