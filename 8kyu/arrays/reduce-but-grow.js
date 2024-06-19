@@ -7,7 +7,7 @@ Example:
 */
 
 // MY SOLUTION
-const grow = x => x.reduce((a, b) => a * b, 1);
+const returnTheProduct = arr => arr.reduce((a, b) => a * b, 1);
 
 // OTHER SOLUTIONS
 function grow(x) {
