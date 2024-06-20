@@ -21,6 +21,10 @@ const returnTheQuarter = (month) => {
     }
 }
 
+console.log(returnTheQuarter(2), 1);
+console.log(returnTheQuarter(6), 2);
+console.log(returnTheQuarter(11), 4);
+
 // OTHER SOLUTIONS
 const quartOf = month => Math.ceil(month / 3);
 
