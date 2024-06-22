@@ -16,5 +16,9 @@ function isInLove(flower1, flower2) {
     }
 }
 
+console.log(isInLove(4, 1), true);
+console.log(isInLove(5, 5), false);
+console.log(isInLove(0, 1), true);
+
 // OTHER SOLUTION
 const lovefunc = (flower1, flower2) => flower1 % 2 === 0 && flower2 % 2 !== 0 || flower1 % 2 !== 0 && flower2 % 2 === 0 ? true : false;
