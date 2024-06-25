@@ -1,6 +1,6 @@
 /* CHALLENGE DESCRIPTION
 
-Very simple, given a number (integer / decimal / both depending on the language), find its opposite (additive inverse).
+Given a number, return its opposite (additive inverse).
 
 Examples:
 1: -1
@@ -9,8 +9,8 @@ Examples:
 */
 
 // MY SOLUTION
-function opposite(number) {
-    return(-number);
+function returnOppositeNum(number) {
+    return -number;
 }
 
 // OTHER SOLUTION
