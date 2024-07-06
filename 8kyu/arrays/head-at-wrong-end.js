@@ -2,7 +2,7 @@
 
 You're at the zoo. All the meerkats look weird. Something has gone terribly wrong. Someone has gone and switched their heads and tails around!
 
-Save the animals by switching them back. You will be given an array which will have three values (tail, body, head). It is your job to re-arrange the array so that the animal is the right way around (head, body, tail).
+Save the animals by switching them back. You will be given an array which will have three values (tail, body, head). It is your job to rearrange the array so that the animal is the right way around (head, body, tail).
 
 Same goes for all the other arrays/lists that you will get in the tests. You have to change the element positions with the same exact logic.
 */
