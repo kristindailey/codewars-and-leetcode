@@ -12,4 +12,4 @@
 // MY SOLUTION
 function numberToString(num) {
     return num.toString();
-  }
+}
