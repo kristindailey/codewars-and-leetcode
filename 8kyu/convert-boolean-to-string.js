@@ -9,3 +9,6 @@ function boolToWord(bool) {
       return "No";
     }
 } 
+
+// OTHER SOLUTION
+const boolToWord = bool => bool ? "Yes" : "No";
