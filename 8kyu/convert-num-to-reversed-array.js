@@ -25,3 +25,5 @@ function digitize(n) {
 function digitize(n) {
     return n.toString().split("").reverse().map(Number);
 }
+
+const digitize = n => n.toString().split("").reverse().map(Number);
