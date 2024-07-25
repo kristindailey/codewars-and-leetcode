@@ -19,4 +19,4 @@ const summation = function(num) {
 }
 
 // OTHER SOLUTION
-const summation = n => n * (n + 1) / 2;
+const sum = n => n * (n + 1) / 2;
