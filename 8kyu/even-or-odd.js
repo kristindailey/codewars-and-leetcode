@@ -9,3 +9,6 @@ function evenOrOdd(number) {
       return "Odd";
     }
 }
+
+// OTHER SOLUTION
+const evenOrOdd = i => i % 2 === 0 ? "Even" : "Odd";

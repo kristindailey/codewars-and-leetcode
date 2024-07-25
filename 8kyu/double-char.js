@@ -19,9 +19,11 @@ function doubleChar(str) {
 
 // OTHER SOLUTIONS
 function doubleChar(str) {
-    return str.split('').map( x => x + x ).join('');
+    return str.split("").map(x => x + x).join("");
 }
 
 function doubleChar(str) {
     return str.replace(/./g, '$&$&');
 }
+
+const doubleChar = str => str.split("").map(x => x + x).join("");
