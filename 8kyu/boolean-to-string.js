@@ -15,3 +15,9 @@ function booleanToString(b) {
 function booleanToString(b) {
     return b ? "true" : "false";
 }
+
+function booleanToString(b) {
+    return b.toString();
+}
+
+const booleanToString = b => b.toString();
