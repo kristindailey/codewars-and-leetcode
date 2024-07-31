@@ -26,8 +26,6 @@ function countSheeps(sheep) {
   }
 
 // OTHER SOLUTIONS
-function countSheeps(arrayOfSheeps) {
-    return arrayOfSheeps.filter(Boolean).length;
-}
+const countSheeps = arrayOfSheeps => arrayOfSheeps.filter(Boolean).length;
 
 const countSheeps = arrayOfSheeps => arrayOfSheeps.filter(s => s).length;
