@@ -16,13 +16,9 @@ function fakeBin(x) {
 }
 
 // OTHER SOLUTIONS
-function fakeBin(x) {
-    return x.split("").map(n => n < 5 ? 0 : 1).join("");
-}
+const fakeBin = x => x.split("").map(n => n < 5 ? 0 : 1).join("");
 
-function fakeBin(x) {
-    return x.replace(/\d/g, d => d < 5 ? 0 : 1);
-}
+const fakeBin = x => x.replace(/\d/g, d => d < 5 ? 0 : 1);
 
 function fakeBin(x) {
     let result = "";
