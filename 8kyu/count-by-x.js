@@ -23,4 +23,4 @@ function countBy(x, n) {
 }
 
 // OTHER SOLUTIONS
-countBy = (x, n) => Array.from({length: n},(_,index) => x + index * x);
+const countBy = (x, n) => Array.from({length: n},(_,index) => x + index * x);
