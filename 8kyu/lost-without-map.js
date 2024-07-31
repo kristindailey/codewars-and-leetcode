@@ -8,13 +8,9 @@ For example:
 
 // MY SOLUTION
 function maps(x) {
-    let newArr = x.map((y) => y * 2);
+    let newArr = x.map(y => y * 2);
     return newArr;
 }
 
 // OTHER SOLUTIONS
 const maps = arr => arr.map(x => x * 2);
-
-function maps(x) {
-    return x.map(n => n * 2);
-}
