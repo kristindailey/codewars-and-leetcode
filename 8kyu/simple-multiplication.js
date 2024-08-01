@@ -9,3 +9,6 @@ function simpleMultiplication(number) {
       return number * 9;
     }
 }
+
+// OTHER SOLUTION
+const simpleMultiplication = number => number % 2 === 0 ? number * 8 : number * 9;
