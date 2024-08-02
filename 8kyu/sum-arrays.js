@@ -12,11 +12,12 @@ Output: 0
 Input: [-2.398]
 Output: -2.398
 
-Assumptions
+Assumptions:
 You can assume that you are only given numbers.
 You cannot assume the size of the array.
 You can assume that you do get an array and if the array is empty, return 0.
-What We're Testing
+
+What We're Testing:
 We're testing basic loops and math operations. This is for beginners who are just learning loops and math operations.
 Advanced users may find this extremely easy and can easily write this in one line.
 */
@@ -31,8 +32,4 @@ function sum(numbers) {
 }
 
 // OTHER SOLUTIONS
-function sum(numbers) {
-    return numbers.reduce((a, b) => a + b, 0);
-}
-
-const sum = n => n.reduce((a, b) => a + b, 0);
+const sum = numbers => numbers.reduce((a, b) => a + b, 0);
