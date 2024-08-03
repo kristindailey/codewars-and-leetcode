@@ -12,9 +12,9 @@ function sumMix(x) {
 }
 
 // OTHER SOLUTIONS
-function sumMix(x) {
-    return x.map(a => +a).reduce((a, b) => a + b);
-}
+const sumMix = x => x.map(a => +a).reduce((a, b) => a + b, 0);
+
+const sumMix = x => x.reduce((a, b) => Number(a) + Number(b), 0);
 
 function sumMix(x) {
     let result = 0;
@@ -24,6 +24,4 @@ function sumMix(x) {
     return result;
 }
 
-function sumMix(x) {
-    return eval(x.join("+"));
-}
+const sumMix = x => eval(x.join("+"));
