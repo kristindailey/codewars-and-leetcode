@@ -1,6 +1,6 @@
-// CHALLENGE DESCRIPTION
-/*
-In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+/* CHALLENGE DESCRIPTION
+
+In this simple assignment, you are given a number and have to make it negative. But maybe the number is already negative?
 
 Examples:
 makeNegative(1);    // return -1
@@ -24,10 +24,6 @@ function makeNegative(num) {
 }
 
 // OTHER SOLUTIONS
-function makeNegative(num) {
-    return -Math.abs(num);
-}
+const makeNegative = num => num > 0 ? -num : num;
 
-function makeNegative(num) {
-    return num < 0 ? num : -num;
-}
+const makeNegative = num => -Math.abs(num);
