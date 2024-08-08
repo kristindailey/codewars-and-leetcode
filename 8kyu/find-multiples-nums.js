@@ -12,7 +12,7 @@ For example, if the parameters passed are (2, 6), the function should return [2,
 // MY SOLUTION
 function findMultiples(integer, limit) {
     const result = [];
-    for (let i = integer; i <= limit; i+= integer) {
+    for (let i = integer; i <= limit; i += integer) {
       result.push(i);
     }
     return result;
