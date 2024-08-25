@@ -7,14 +7,9 @@ Write a function which takes a list of strings and returns each line prepended b
 The numbering starts at 1. The format is n: string. Notice the colon and space in between.
 
 Examples: (Input --> Output)
-
 [] --> []
 ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
 */
-
-// function takes arr parameter, takes in array of strings
-// return each line #: string (keep colon and space)
-// numbering starts at 1
 
 // MY SOLUTION
 const returnLineNumbering = arr => arr.map((index, line) => `${index + 1}: ${line}`);
