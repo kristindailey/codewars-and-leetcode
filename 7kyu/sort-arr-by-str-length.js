@@ -15,7 +15,7 @@ All of the strings in the array passed to your function will be different length
 
 /* PREP
 Parameters
-    // array of strings
+    // array of strings, always of different lengths 
 Returns 
     // sorted array of strings, ordered shortest to longest
 Examples
