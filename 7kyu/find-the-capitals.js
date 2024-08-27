@@ -31,7 +31,7 @@ const findCapitals = function(word) {
     }, []);
 };
 
-// OTHER SOLUTIONS
+// OTHER SOLUTION
 const capitals = function(word) {
     let caps = [];
     for (let i = 0; i < word.length; i++) {
