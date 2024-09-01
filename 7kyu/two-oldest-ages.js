@@ -34,14 +34,14 @@ Pseudocode
 
 // MY SOLUTIONS
 function twoOldestAges(ages) {
-    ages.sort((a, b) => a - b);
-    return [ages[ages.length - 2], ages[ages.length - 1]];
+    let sorted = ages.sort((a, b) => a - b);
+    return [sorted[sorted.length - 2], sorted[sorted.length - 1]];
 }
 
 // OTHER SOLUTIONS
 const twoOldestAges = ages => ages.sort((a, b) => a - b).slice(-2);
 
 function twoOldestAges(ages) {
-    ages.sort((a, b) => b - a);
-    return [ages[1], ages[0]];
+    let s = ages.sort((a, b) => b - a);
+    return [s[1], s[0]];
 }
