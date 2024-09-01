@@ -13,6 +13,24 @@ gimme([5, 10, 14]) => 1
 10 is the number that fits between 5 and 14 and the index of 10 in the input array is 1.
 */
 
+/* PREP
+Parameters
+    // array of three numbers
+    // each element will always be a distinct number
+Returns 
+    // return the index of the middle element in the original array
+Examples 
+    // [2, 7, 9]
+        // 1
+    //  [15, 100, 20]
+        // 2
+Pseudocode 
+    // function that takes in one parameter, an array/triplet
+    // sort a copy of the original array from smallest to largest
+    // find the middle element and assign it to a variable
+    // return the index of the middle element in the original array
+*/
+
 // MY SOLUTION
 function gimme(triplet) {
     let sorted = [...triplet].sort((a, b) => a - b);
