@@ -25,6 +25,10 @@ Examples
         // "Hll wrld"
 Pseudocode 
     // function that takes in a string
+    // turn string into array
+    // filter out vowels in array, including uppercase vowels
+    // join the array
+    // return the string of consonants
 */
 
 // MY SOLUTION
