@@ -35,9 +35,9 @@ Examples
         // 90
 Pseudocode 
     // function that takes in one parameter, array of integers
-    // find the two largest adjacent elements
-    // sum the two largest adjacent elements
-    // return the sum
+    // declare maxProd variable of multiplying two adjacent elements
+    // loop through array to find maxProd of two adjacent elements
+    // return the maxProd
 */
 
 // MY SOLUTION
