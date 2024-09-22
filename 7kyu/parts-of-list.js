@@ -1,15 +1,13 @@
 /* CHALLENGE DESCRIPTION
 
-Write a function partlist that gives all the ways to divide a list (an array) of at least two elements into two non-empty parts.
+Write a function that gives all the ways to divide a list/array of at least two elements into two non-empty parts.
 
-Each two non-empty parts will be in a pair.
-
-Each part will be in a string.
+Each two non-empty parts will be in a pair. Each part will be in a string.
 
 Elements of a pair must be in the same order as in the original array.
 
 Example of return:
-a = ["az", "toto", "picaro", "zone", "kiwi"] -->
+["az", "toto", "picaro", "zone", "kiwi"] -->
 [["az", "toto picaro zone kiwi"], ["az toto", "picaro zone kiwi"], ["az toto picaro", "zone kiwi"], ["az toto picaro zone", "kiwi"]] 
 */
 
@@ -27,9 +25,10 @@ Examples
         // [["hello", "and welcome to my world"], ["hello, and", "welcome to my world"], ["hello and welcome", "to my world"], ["hello and welcome to", "my world"], ["hello and welcome to my", "world"]]
 Pseudocode 
     // function that takes in one parameter, array of strings
+    // declare an empty array variable
     // loop through array
     // join the array adding one more element to the array[0] each loop
-    // return the new array of array 
+    // return the new array 
 */
 
 // MY SOLUTION
