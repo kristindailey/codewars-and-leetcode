@@ -28,7 +28,7 @@ Pseudocode
     // declare an empty array variable
     // loop through array
     // join the array adding one more element to the array[0] each loop
-    // return the new array 
+    // return the new array
 */
 
 // MY SOLUTION
