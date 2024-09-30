@@ -30,7 +30,6 @@ Pseudocode
     // conditional statements that account for each of the cases using arr.length
     // make sure 4+ case, includes others variable
     // return each case depending on arr.length
-    
 */
 
 // MY SOLUTION
