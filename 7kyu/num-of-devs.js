@@ -17,8 +17,8 @@ Your function should return number 1.
 If there are no JavaScript developers from Europe, your function should return 0.
 
 Notes:
-The format of the strings will always be Europe and JavaScript.
-All data will always be valid and uniform as in the example above.
+The format of the strings will always be "Europe" and "JavaScript".
+Data will always be valid and uniform as in the example above.
 */
 
 /* PREP
