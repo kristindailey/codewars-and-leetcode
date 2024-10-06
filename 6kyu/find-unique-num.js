@@ -7,7 +7,7 @@ findUniq([0, 0, 0.55, 0, 0]) === 0.55
 
 It’s guaranteed that array contains at least three numbers.
 
-The tests contain some very huge arrays, so think about performance.
+The tests contain some very big arrays, so think about performance.
 */
 
 /* PREP
