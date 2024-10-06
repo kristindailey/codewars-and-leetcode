@@ -1,29 +1,33 @@
 /* CHALLENGE DESCRIPTION
 
 Create a function which answers the question "Are you playing banjo?".
+
 If your name starts with the letter "R" or lower case "r", you are playing banjo!
 
-The function takes a name as its only argument, and returns one of the following strings:
-
+The function takes a name as its only argument and returns one of the following strings:
 name + " plays banjo" 
 name + " does not play banjo"
+
 Names given are always valid strings.
 */
 
 /* PREP
 Parameters
-    // array of integers
+    // string (name)
+    // will always be a valid string
 Returns 
-    // return even elements only
+    // if name starts with "R" || "r", return "name plays banjo"
+    // if name does not start with "R" || "r" return "name does not play banjo"
 Examples 
-    // [1, 2, 3, 4]
-        // [2, 4]
-    //  [5, 6, 7, 8, 9, 10]
-        // [6, 8, 10]
+    // "Robin"
+        // "Robin plays banjo"
+    //  Cadbury
+        // "Cadbury does not play banjo"
 Pseudocode 
-    // function that takes in one parameter, array of integers
-    // filter the array for even elements only
-    // return the array
+    // function that takes in one parameter, string (name)
+    // use the .startsWith() method to determine if str startsWith "R"/"r"
+    // if true, use TL to return "str plays banjo"
+    // if false, use TL to return "str does not play banjo"
 */
 
 // MY SOLUTION
