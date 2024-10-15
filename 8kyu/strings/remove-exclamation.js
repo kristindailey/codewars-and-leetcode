@@ -1,6 +1,6 @@
 /* CHALLENGE DESCRIPTION
 
-Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+Write a function, removeExclamationMarks, which removes all exclamation marks from a given string.
 
 */
 
@@ -24,5 +24,5 @@ Pseudocode
 // MY SOLUTION
 const removeExclamationMarks = s => s.replaceAll("!", "");
 
-// OTHER SOLUTIONS
+// OTHER SOLUTION
 const removeExclamations = s => s.split("!").join("");
