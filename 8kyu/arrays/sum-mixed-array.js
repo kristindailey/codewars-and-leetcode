@@ -1,6 +1,29 @@
-// CHALLENGE DESCRIPTION
-// Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
-// Return your answer as a number.
+/* CHALLENGE DESCRIPTION
+
+Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
+
+Return your answer as a number.
+*/ 
+
+/* PREP
+Parameters
+  // array of strings and integers
+Returns
+  // return sum of array elements, as if they're all integers
+Examples
+  // ["22", 11, "10"]
+    // 43
+  // ["0", "1", "0"]
+    // 1
+  // [1, 2, "3"]
+    // 6
+Pseudocode
+  // function that takes one parameter, array
+  // apply reduce method to array
+  // turn each element into a number
+  // add each element together
+  // return the sum
+*/
 
 // MY SOLUTION
 function sumMix(x) {
