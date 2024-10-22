@@ -21,8 +21,6 @@ function returnUniqueArrs(arr) {
     return arr.reduce((a, c) => a * new Set(c).size, 1);
 }
 
-console.log(returnUniqueArrs([1, 3, 4], [4], [1, 3], 6));  
-console.log(returnUniqueArrs([1, 2], [4, 4], [5, 6, 6], 4));
-console.log(returnUniqueArrs([1, 2], [5, 5], [6, 7, 7], 4));
-
-// OTHER SOLUTIONS
+console.log(returnUniqueArrs([1, 3, 4], [4], [1, 3]), 6);  
+console.log(returnUniqueArrs([1, 2], [4, 4], [5, 6, 6]), 4);
+console.log(returnUniqueArrs([1, 2], [5, 5], [6, 7, 7]), 4);
