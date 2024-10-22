@@ -7,9 +7,6 @@ Examples:
 "recede"   =>  "()()()"
 "Success"  =>  ")())())"
 "(( @"     =>  "))((" 
-
-Notes:
-Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
 */
 
 // str - chars, symbols, spaces, empty?
@@ -18,11 +15,22 @@ Assertion messages may be unclear about what they display in some languages. If 
     // if char appears 2+ times, ")"
     // ignore cap when determining if dupe
 
-// MY SOLUTION -- IN PROGRESS
+// MY SOLUTION
 function dupeEncoder(str) {
+    // declare var for new str
+    let result = "";
     // make str lowercase
-    // 
-    // 
+    // split str into arr, each char = element
+    const arr = str.toLowerCase().split("");
+    // loop through arr
+    // if arr.indexOf(arr[i]) === arr.lastIndexOf(arr[i]), add "("
+    // else add ")"
+    for (let i = 0; i < arr.length; i++) {
+        if (arr.indexOf(arr[i]) === arr.lastIndexOf(arr[i])) result += "(";
+        else result += ")";
+    }
+    // return the new string
+    return result;
 }
 
 dupeEncoder("din"); // "((("
@@ -30,4 +38,11 @@ dupeEncoder(""); // ""
 dupeEncoder("Success"); // ")())())"
 dupeEncoder("(( @"); // "))(("
 
-// OTHER SOLUTIONS
+// OTHER SOLUTION
+function duplicateEncode(word) {
+    return word
+      .toLowerCase()
+      .split("")
+      .map((a, i, w) => w.indexOf(a) === w.lastIndexOf(a) ? "(" : ")")
+      .join("");
+}
