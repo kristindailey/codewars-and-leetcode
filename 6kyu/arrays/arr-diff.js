@@ -14,17 +14,9 @@ arrayDiff([1, 2, 2, 2, 3], [2]) == [1, 3]
 // remove all values from arr1 that also appear in arr2
 // return the new array
 
-// MY SOLUTION -- IN PROGRESS
+// MY SOLUTION
 function arrDiff(arr1, arr2) {
-    // declare result var
-    let result = [];
-    // loop through arrs
-    // if arr1[i] !== arr2[i], add it to the new arr
-    for (let i = 0; i < arr1.length; i++ ) {
-        if (arr1[i] !== arr2[i]) result.push(i);
-    }
-    // return the result
-    return result;
+    return arr1.filter(e => !arr2.includes(e));
 }
 
 arrDiff([1, 2], [1]);   // [2]
@@ -32,3 +24,16 @@ arrDiff([1, 2, 2, 2, 3], [2]);  // [1, 3]
 arrDiff([], []);    // []
 
 // OTHER SOLUTIONS
+function arrDiff(arr1, arr2) {
+    return arr1.filter(x => arr2.indexOf(x) === -1);
+}
+
+function arrDiff(arr1, arr2) {
+    let result = [];
+    for (let i = 0; i < arr1.length; i++) {
+        if (arr2.indexOf(arr1[i]) === -1) {
+            result.push(arr1[i]);
+        }
+    }
+    return result;
+}
