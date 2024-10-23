@@ -14,7 +14,7 @@ arrayDiff([1, 2, 2, 2, 3], [2]) == [1, 3]
 // remove all values from arr1 that also appear in arr2
 // return the new array
 
-// MY SOLUTION
+// MY SOLUTION -- IN PROGRESS
 function arrDiff(arr1, arr2) {
     // declare result var
     let result = [];
