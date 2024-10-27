@@ -28,7 +28,7 @@ Only one valid answer exists.
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 */
 
-// Note: Below is a brute force solution.
+// NOTE: BELOW IS A BRUTE FORCE SOLUTION.
 
 // arr of nums, target num
 // return indices of nums that add up to target
