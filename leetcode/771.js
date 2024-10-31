@@ -23,7 +23,6 @@ All the characters of jewels are unique.
 // two strings - one jewels, one stones, only English letters
 // returm num of stones I have that are jewels
 
-// MY SOLUTION
 function numJewelsInStones(jewels, stones) {
     const map = {};
     let count = 0;
