@@ -11,18 +11,24 @@ Examples(Operator, value1, value2) --> output
 ('/', 49, 7) --> 7
 */
 
+// function w/ 3 params
+  // operation (str)
+  // value1 (num)
+  // value2 (num)
+// return result of values applying the operation, single integer
+
 // MY SOLUTION
-function basicOp(operation, value1, value2){
-    if (operation === "+") {
-      return Number(value1 + value2);
-    } else if (operation === "-") {
-      return Number(value1 - value2);
-    } else if (operation === "*") {
-      return Number(value1 * value2);
-    } else if (operation === "/") {
-      return Number(value1 / value2);
-    }
+function basicOp(operation, value1, value2) {
+  if (operation === "+") return value1 + value2;
+  else if (operation === "-") return value1 - value2;
+  else if (operation === "*") return value1 * value2;
+  else if (operation === "/") return value1 / value2;
 }
+
+console.log(basicOp("+", 5, 5), 10);
+console.log(basicOp("-", 5, 5), 0);
+console.log(basicOp("*", 4, 4), 16);
+console.log(basicOp("/", 15, 5), 3);
 
 // OTHER SOLUTIONS
 function basicOp(operation, value1, value2) {
