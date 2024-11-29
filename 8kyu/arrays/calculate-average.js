@@ -1,6 +1,11 @@
-// CHALLENGE DESCRIPTION
-// Write a function which calculates the average of the numbers in a given list.
-// Note: Empty arrays should return 0.
+/* CHALLENGE DESCRIPTION
+Write a function which calculates the average of the numbers in a given list.
+Note: Empty arrays should return 0.
+*/
+
+// function calculating average in list (arr)
+// return average, no rounding required
+// empty array should return 0
 
 // MY SOLUTION
 const findAverage = array => array.length === 0 ? 0 : array.reduce((a, b) => a + b, 0) / array.length;
