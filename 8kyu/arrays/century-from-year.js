@@ -1,9 +1,9 @@
 /* CHALLENGE DESCRIPTION
 
-Introduction
-The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc.
+Introduction:
+The first century spans from the year 1 up to and including the year 100, the second century from the year 101 up to and including the year 200, etc.
 
-Task
+Task:
 Given a year, return the century it is in.
 
 Examples
@@ -14,10 +14,13 @@ Examples
 2742 --> 28
 */
 
+// function that takes in a number
+// return the century (number)
+
 // MY SOLUTION
-function century(year) {
+function returnCentury(year) {
     return Math.ceil(year / 100);
 }
 
 // OTHER SOLUTION
-const century = year => Math.ceil(year / 100);
+const returnCentury = year => Math.ceil(year / 100);
