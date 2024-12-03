@@ -20,6 +20,8 @@ For example, only one of these entries should be added to the list — the other
    - Preserve Grandpa’s original capitalization (e.g., if `"Cat Hammock"` is added first, that should be added to the list). Do not simply convert all entries to lower case - Grandpa might well want to capitalize some words. 
 
 2. Additional Features: Add functionality to delete or edit items on the list.
+
+3. Remove ability to add empty list items.
 */
 
 // Get references to DOM elements
@@ -48,6 +50,16 @@ function renderList() {
         shoppingList.appendChild(listItem);
     });
     itemInput.value = ''; // Clear the input field
+}
+
+// Function to edit an item on the shopping list
+function editListItem() {
+
+}
+
+// Function to delete an item on the shopping list
+function deleteListItem() {
+
 }
 
 // Add event listener to button
