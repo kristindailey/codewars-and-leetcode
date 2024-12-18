@@ -1,8 +1,6 @@
 /* CHALLENGE DESCRIPTION
 
-Given an array of integers.
-
-Return an array where the first element is the count of positives numbers and the second element is the sum of negative numbers. 0 is neither positive nor negative.
+Given an array of integers, return an array where the first element is the count of positives numbers and the second element is the sum of negative numbers. 0 is neither positive nor negative.
 
 If the input is an empty array or null, return an empty array.
 
@@ -16,22 +14,23 @@ For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should r
 
 // MY SOLUTION
 function countPositivesSumNegatives(input) {
-    if (input === null || input.length === 0) {
-      return [];
+  if (!input || input.length === 0) {
+    return [];
+  }
+
+  let positiveCount = 0;
+  let negativeSum = 0;
+
+  input.forEach((num) => {
+    if (num > 0) {
+      positiveCount++;
+    } else {
+      negativeSum += num;
     }
-    
-    let positivesCount = 0;
-    let negativesSum = 0;
-    
-    for (let i = 0; i < input.length; i++) {
-      if (input[i] > 0) {
-        positivesCount++;
-      } else {
-        negativesSum += input[i];
-      }
-    }
-    return [positivesCount, negativesSum];
-}  
+  });
+
+  return [positiveCount, negativeSum];
+}
 
 // OTHER SOLUTIONS
 function countPositivesSumNegatives(input) {
