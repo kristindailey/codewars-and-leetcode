@@ -19,7 +19,7 @@ function monkeyCount(n) {
 }
 
 // OTHER SOLUTIONS
-const monkeyCount = n => Array.from({length: n}, (_, i) => i + 1);
+const monkeyCount = n => Array.from({ length: n }, (_, i) => i + 1);
 
 const monkeyCount = n => [...Array(n)].map((_, i) => i + 1);
 
