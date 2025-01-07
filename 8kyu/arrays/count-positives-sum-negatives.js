@@ -10,6 +10,10 @@ Example:
 For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
 */
 
+// function that takes in arr of ints
+// return an arr, first el = count of positive nums, second el = sum of negative nums
+// if arr = empty/null, return []
+
 // MY SOLUTION
 function countPositivesSumNegatives(input) {
     if (input === null || input.length === 0) {
