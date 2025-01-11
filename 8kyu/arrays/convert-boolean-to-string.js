@@ -3,16 +3,13 @@ Complete the method that takes a boolean value and return a "Yes" string for tru
 */
 
 // MY SOLUTION
-function boolToWord(bool) {
-    if (bool) {
-      return "Yes";
-    } else {
-      return "No";
-    }
-} 
-
-console.log(boolToWord(true));
-console.log(boolToWord(false));
+const returnYesOrNo = boolean => boolean ? "Yes" : "No";
 
 // OTHER SOLUTION
-const boolToWord = bool => bool ? "Yes" : "No";
+function convertBoolToWord(bool) {
+  if (bool) {
+    return "Yes";
+  } else {
+    return "No";
+  }
+}
