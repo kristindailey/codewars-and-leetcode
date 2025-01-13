@@ -10,6 +10,9 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 // MY SOLUTION
 const sumTwoSmallestNumbers = numbers => numbers.sort((a, b) => a - b)[0] + numbers[1];
 
+console.log(sumTwoSmallestNumbers([19, 5, 42, 2, 77]), 7);
+console.log(sumTwoSmallestNumbers([10, 343445353, 3453445, 3453545353453]), 3453455);
+
 // OTHER SOLUTIONS
 function sumTwoSmallestNumbers(numbers) {
     numbers.sort((a, b) => a - b);
