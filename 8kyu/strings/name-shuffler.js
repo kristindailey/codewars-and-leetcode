@@ -1,12 +1,12 @@
 /* CHALLENGE DESCRIPTION
-Write a function that returns a string in which firstname is swapped with last name.
+Write a function that returns a string in which the first name is swapped with the last name.
 
 Example (Input --> Output):
 "john McClane" --> "McClane john"
 */
 
-// function that takes in one param, str
-// return reversed str
+// function that takes in a str
+// return str "lastName firstName"
 
 // MY SOLUTION
 function reverseName(str) {
