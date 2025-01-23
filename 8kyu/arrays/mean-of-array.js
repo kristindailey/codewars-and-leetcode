@@ -1,6 +1,6 @@
 /* CHALLENGE DESCRIPTION
 
-It's the academic year's end, fateful moment of your school report. The averages must be calculated. All the students come to you and entreat you to calculate their average for them. Easy! You just need to write a script.
+It's the academic year's end, the fateful moment of your school report. The averages must be calculated. All the students come to you and entreat you to calculate their average for them. Easy! You just need to write a script.
 
 Return the average of the given array rounded down to its nearest integer.
 
@@ -28,7 +28,11 @@ Psuedocode
 */
 
 // MY SOLUTION
-const getAverage = marks => Math.floor(marks.reduce((a, b) => a + b, 0) / marks.length);         
+const getAverage = marks => Math.floor(marks.reduce((a, b) => a + b, 0) / marks.length);   
+
+console.log(getAverage([100, 50, 88, 90]), 82);
+console.log(getAverage([65, 67, 74, 80]), 71);
+console.log(getAverage([100, 99, 95, 88]), 95);
 
 // OTHER SOLUTION
 function getAverage(marks) {
