@@ -36,6 +36,9 @@ function checkPlaysBanjo(str) {
     else return `${str} does not play banjo`;
 }
 
+console.log(checkPlaysBanjo("Renee"), "Renee plays banjo");
+console.log(checkPlaysBanjo("ryan"), "ryan plays banjo");
+console.log(checkPlaysBanjo("Cadbury"), "Cadbury does not play banjo");
 
 // OTHER SOLUTIONS
 function areYouPlayingBanjo(name) {
