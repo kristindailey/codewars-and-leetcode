@@ -29,5 +29,9 @@ Pseudocode
 // MY SOLUTION
 const returnGreeting = (name, owner) => name === owner ? "Hello boss" : "Hello guest";
 
+console.log(returnGreeting("Julie", "Robert"), "Hello guest");
+console.log(returnGreeting("Julie", "Julie"), "Hello boss");
+console.log(returnGreeting("", "Kristin"), "Hello guest");
+
 // OTHER SOLUTIONS
 const greet = (name, owner) => `Hello ${name === owner ? 'boss' : 'guest'}`;
