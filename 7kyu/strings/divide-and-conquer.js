@@ -24,13 +24,13 @@ Pseudocode
 */
 
 // MY SOLUTION
-function divCon(x) {
-    let sum = 0;
-    for (let i = 0; i < x.length; i++) {
-        if (typeof x[i] === "number") sum += x[i];
-        else if (typeof x[i] === "string") sum -= x[i];
+function divCon(arr) {
+    let result = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (typeof arr[i] === "number") result += arr[i];
+        else if (typeof arr[i] === "string") result -= arr[i];
     }
-    return sum;
+    return result;
 }
 
 // OTHER SOLUTION
