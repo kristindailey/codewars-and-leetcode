@@ -1,6 +1,6 @@
 /* CHALLENGE DESCRIPTION
 
-This time no story, no theory. The examples below show you how to write function accum:
+This time there's no story, no theory. The examples below show you how to write the function accum:
 
 Examples:
 accum("abcd") -> "A-Bb-Ccc-Dddd"
