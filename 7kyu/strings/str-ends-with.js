@@ -15,3 +15,6 @@ solution("abc", "d") // returns false
     // if so, return true
     // else return false
 const endsWith = (str1, str2) => str1.endsWith(str2);
+
+console.log(endsWith("abc", "bc"), true);
+console.log(endsWith("abc", "d"), false);
