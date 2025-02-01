@@ -38,6 +38,10 @@ function twoOldestAges(ages) {
     return [sorted[sorted.length - 2], sorted[sorted.length - 1]];
 }
 
+console.log(twoOldestAges([2, 7, 3, 9]), [7, 9]);
+console.log(twoOldestAges([15, 20, 100, 3]), [20, 100]);
+console.log(twoOldestAges([50, 100, 100]), [100, 100]);
+
 // OTHER SOLUTIONS
 const twoOldestAges = ages => ages.sort((a, b) => a - b).slice(-2);
 
