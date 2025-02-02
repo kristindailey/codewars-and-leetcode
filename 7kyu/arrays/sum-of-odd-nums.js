@@ -17,5 +17,9 @@ Examples: (Input --> Output)
 // MY SOLUTION
 const rowSumOddNumbers = n => n ** 3;
 
+console.log(rowSumOddNumbers(1), 1);
+console.log(rowSumOddNumbers(2), 8);
+console.log(rowSumOddNumbers(5), 125);
+
 // OTHER SOLUTION
 const rowSumOddNums = n => Math.pow(n, 3);
