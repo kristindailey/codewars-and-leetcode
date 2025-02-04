@@ -25,7 +25,7 @@ Examples
     // [[1, 2, 3, 4], [2, 3], [8, 9]]
         // 11 (1 + 2 + 8)
     //  [[5, 6, 7, 8, 9, 10], [10, 12], [30, 20]]
-        // 45 (5 + 10 + 30)
+        // 35 (5 + 10 + 20)
 Pseudocode 
     // function that takes in one parameter, array of integers (nested array)
     // find the minimum value in each row
@@ -37,6 +37,9 @@ Pseudocode
 function sumOfMinValues(arr) {
     return arr.map(row => Math.min(...row)).reduce((sum, min) => min + sum, 0);
 }
+
+console.log(sumOfMinValues([[1, 2, 3, 4], [2, 3], [8, 9]]), 11);
+console.log(sumOfMinValues([[5, 6, 7, 8, 9, 10], [10, 12], [30, 20]]), 35);
 
 // OTHER SOLUTIONS
 function sumOfMinimums(arr) {
