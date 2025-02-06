@@ -32,6 +32,9 @@ Pseudocode
 // MY SOLUTION
 const toNumberArray = stringarray => stringarray.map(parseFloat);
 
+console.log(toNumberArray(["1", "2", "3", "4"]), [1, 2, 3, 4]);
+console.log(toNumberArray(["5.5", "6.6", "7.7"]), [5.5, 6.6, 7.7]);
+
 // OTHER SOLUTIONS
 const toNumArray = stringarray => stringarray.map(Number);
 
