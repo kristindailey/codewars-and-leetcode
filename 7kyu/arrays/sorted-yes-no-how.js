@@ -44,6 +44,10 @@ function returnSortType(arr) {
     }
 }
 
+console.log(returnSortType([1, 2, 3, 4]), "yes, ascending");
+console.log(returnSortType([10, 9, 8, 7, 6]), "yes, descending");
+console.log(returnSortType([0, 4, 2, 3]), "no");
+
 // OTHER SOLUTIONS
 function isSortedAndHow(arr) {
     return arr.every((x, i) => i === 0 || arr[i] >= arr[i - 1]) ? "yes, ascending" :
