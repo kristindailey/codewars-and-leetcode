@@ -22,3 +22,6 @@ Pseudocode
 
 // MY SOLUTION
 const sortme = names => names.sort();
+
+console.log(sortme(["hello", "apple", "carrot", "juice"]), ["apple", "carrot", "hello", "juice"]);
+console.log(sortme([10, 5, 9, 7, 6, 2]), [10, 2, 5, 6, 7, 9]);
