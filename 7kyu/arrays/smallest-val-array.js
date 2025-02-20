@@ -32,6 +32,9 @@ function returnSmallestVal(arr, str) {
     else if (str === "index") return arr.indexOf(Math.min(...arr));
 }
 
+console.log(returnSmallestVal([1, 2, 3, 4, 5], "value"), 1);
+console.log(returnSmallestVal([1, 2, 3, 4, 5], "index"), 0);
+
 // OTHER SOLUTIONS
 const min = (arr, toReturn) => toReturn === "value" ? Math.min(...arr) : arr.indexOf(Math.min(...arr));
 
