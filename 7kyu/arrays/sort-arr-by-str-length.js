@@ -17,9 +17,9 @@ Parameters
 Returns 
     // sorted array of strings, ordered shortest to longest
 Examples
-    // console.log(sortByLength(["apple", "orange", "banana", "kiwi"])) 
+    // ["apple", "orange", "banana", "kiwi"]
         // ["kiwi", "apple", "orange", "banana"]
-    // console.log(sortByLength(["green", "red", "purple"]))  
+    // ["green", "red", "purple"]
         // ["red", "green", "purple"]
 Pseudocode 
     // function takes in array parameter
@@ -29,3 +29,6 @@ Pseudocode
 
 // MY SOLUTION
 const sortByLength = array => array.sort((a, b) => a.length - b.length);
+
+console.log(sortByLength(["apple", "orange", "banana", "kiwi"]), ["kiwi", "apple", "orange", "banana"]);
+console.log(sortByLength(["green", "red", "purple"]), ["red", "green", "purple"]);
