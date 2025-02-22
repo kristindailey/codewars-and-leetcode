@@ -42,6 +42,9 @@ function partList(arr) {
     return result;
 }
 
+console.log(partList(["az", "toto", "picaro", "zone", "kiwi"]), [["az", "toto picaro zone kiwi"], ["az toto", "picaro zone kiwi"], ["az toto picaro", "zone kiwi"], ["az toto picaro zone", "kiwi"]] );
+console.log(partList(["hello", "and", "welcome", "to", "my", "world"]), [["hello", "and welcome to my world"], ["hello, and", "welcome to my world"], ["hello and welcome", "to my world"], ["hello and welcome to", "my world"], ["hello and welcome to my", "world"]]);
+
 // OTHER SOLUTION
 function partlist(arr) {
     return arr.map((v, i) => [arr.slice(0, i).join(' '), arr.slice(i).join(' ')]).slice(1);
