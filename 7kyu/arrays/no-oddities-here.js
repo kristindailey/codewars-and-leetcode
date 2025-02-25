@@ -25,6 +25,9 @@ Pseudocode
 // MY SOLUTION
 const noOdds = values => values.filter(element => element % 2 === 0);
 
+console.log(noOdds([2, 5, 4, 9]), [2, 4]);
+console.log(noOdds([5, 15, 20, 45, 40, 0]), [20, 40, 0]);
+
 // OTHER SOLUTIONS
 function noOdds(values) {
     let result = [];
