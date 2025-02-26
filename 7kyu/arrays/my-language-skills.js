@@ -44,6 +44,9 @@ function myLanguages(results) {
     return newArr.map(element => element[0]);
 }
 
+console.log(myLanguages({"C++": 50, "ASM": 10, "Haskell": 20}), []);
+console.log(myLanguages({"Java": 10, "Ruby": 80, "Python": 65}), ["Ruby", "Python"]);
+
 // OTHER SOLUTIONS
 function myLanguages(results) {
     return Object.keys(results).filter(r => results[r] > 59).sort((a, b) => results[b] - results[a]);
