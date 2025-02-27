@@ -21,22 +21,6 @@ Explanation:
 The minimum sum obtained from summing each two integers product,  9*0 + 8*2 +7*4 +6*5 = 74
 */
 
-/* PREP
-Parameters
-    // array of integers
-Returns 
-    // return minimum sum of summing the elements
-Examples 
-    // [1, 2, 3, 4]
-        // [2, 4]
-    //  [5, 6, 7, 8, 9, 10]
-        // [6, 8, 10]
-Pseudocode 
-    // function that takes in one parameter, array of integers
-    // filter the array for even elements only
-    // return the array
-*/
-
 // MY SOLUTION
 function returnMinSum(arr) {
     arr.sort((a, b) => a - b, 0);
@@ -46,6 +30,9 @@ function returnMinSum(arr) {
     }
     return minSum;
 }
+
+console.log(returnMinSum([5, 4, 2, 3]), 22);
+console.log(returnMinSum([12, 6, 10, 26, 3, 24]), 342);
 
 // OTHER SOLUTIONS
 function minSum(arr) {
