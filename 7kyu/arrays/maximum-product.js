@@ -49,6 +49,9 @@ function maxProd(arr) {
     return maxProd;
 }
 
+console.log(maxProd([1, 2, 3, 4]), 12);
+console.log(maxProd([5, 6, 7, 8, 9, 10]), 90);
+
 // OTHER SOLUTIONS
 function adjacentElementsProduct(array) {
     let newArr = [];
