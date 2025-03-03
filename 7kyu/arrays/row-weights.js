@@ -54,6 +54,9 @@ function rowWeights(array) {
     }, [0, 0]);
 }
 
+console.log(rowWeights([1, 2, 3, 4]), [4, 6]);
+console.log(rowWeights([5, 6, 7, 8, 9, 10]), [21, 24]);
+
 // OTHER SOLUTIONS
 function rowWeights(array) {
     let t1 = array.filter((x, i) => i % 2 === 0).reduce((a, b) => a + b, 0);
