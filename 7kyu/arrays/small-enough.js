@@ -25,5 +25,8 @@ Pseudocode
 // MY SOLUTION
 const smallEnough = (a, limit) => a.every(element => element <= limit);
 
+console.log(smallEnough([5, 6, 7, 8], 4), false);
+console.log(smallEnough([1, 2, 3, 4], 4), true);
+
 // OTHER SOLUTION
 const belowOrEqualToLimit = (a, limit) => Math.max(...a) <= limit;
