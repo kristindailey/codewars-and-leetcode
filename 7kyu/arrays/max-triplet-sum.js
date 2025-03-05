@@ -57,6 +57,9 @@ function returnMaxTriSum(arr) {
     return topSum;
 }
 
+console.log(returnMaxTriSum([3, 2, 6, 8, 2, 3]), 17);
+console.log(returnMaxTriSum([2, 1, 8, 0, 6, 4, 8, 6, 2, 4]), 18);
+
 // OTHER SOLUTIONS
 function maxTriSum(numbers) {
     return ([...new Set(numbers)]).sort((a, b) => a - b).slice(-3).reduce((a, b) => a + b);
