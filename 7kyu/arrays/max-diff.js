@@ -32,5 +32,8 @@ Pseudocode
 // MY SOLUTION
 const maxDiff = list => list.length <= 1 ? 0 : Math.max(...list) - Math.min(...list); 
 
-// OTHER SOLUTIONS
+console.log(maxDiff([1, 2, 3, 4]), 3);
+console.log(maxDiff([1, 2, 3, -4]), 7);
+
+// OTHER SOLUTION
 const maxDifference = list => list.length ? Math.max(...list) - Math.min(...list) : 0;
