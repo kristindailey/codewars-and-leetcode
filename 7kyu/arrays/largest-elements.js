@@ -39,6 +39,9 @@ function returnLargest(n, arr) {
     return newArr.sort((a, b) => a - b);
 }
 
+console.log(returnLargest(2, [7, 6, 5, 4, 3, 2, 1]), [6, 7]);
+console.log(returnLargest(1, [7, 6, 5, 4, 3, 2, 1]), [7]);
+
 // OTHER SOLUTIONS
 function largest(n, array) {
     return array.sort((a, b) => b - a).slice(0, n).reverse();
