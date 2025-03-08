@@ -14,10 +14,10 @@ Returns
     // return a flattened array
     // one level of flattening only
 Examples 
-    // [[1,2,3],["a","b","c"],[1,2,3]]
-        // [1,2,3,"a","b","c",1,2,3]
-    //  [[[1,2,3]]]
-        // [[1,2,3]]
+    // [[1, 2, 3], ["a", "b", "c"], [1, 2, 3]]
+        // [1, 2, 3, "a", "b", "c", 1, 2, 3]
+    //  [[[1, 2, 3]]]
+        // [[1, 2, 3]]
 Pseudocode 
     // function that takes in one parameter, array of arrays
     // apply the flatten method to the array
@@ -26,6 +26,9 @@ Pseudocode
 
 // MY SOLUTION
 const flatten = array => array.flat();
+
+console.log(flatten([[1, 2, 3], ["a", "b", "c"], [1, 2, 3]]), [1, 2, 3, "a", "b", "c", 1, 2, 3]);
+console.log(flatten([[[1, 2, 3]]]), [[1, 2, 3]]);
 
 // OTHER SOLUTION
 const flattenArr = (array) => [].concat(...array);
