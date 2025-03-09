@@ -68,3 +68,8 @@ const head = arr => arr[0];
 const tail = arr => arr.slice(1);
 const init = arr => arr.slice(0, -1);
 const last = arr => arr[arr.length - 1];
+
+console.log(head([1, 2, 3, 4]), 1);
+console.log(tail([1, 2, 3, 4]), [2, 3, 4]);
+console.log(init([1, 2, 3, 4]), [1, 2, 3]);
+console.log(last([1, 2, 3, 4]), 4);
