@@ -28,5 +28,8 @@ Pseudocode
 // MY SOLUTION
 const flattenAndSort = array => array.flat().sort((a, b) => a - b);
 
-// OTHER SOLUTIONS
+console.log(flattenAndSort([[], [1, 5, 4, 3], [9, 2]]), [1, 2, 3, 4, 5, 9]);
+console.log(flattenAndSort([[10, 30, 2], [1, 9, 5], [2, 0]]), [0, 1, 2, 2, 5, 9, 10, 30]);
+
+// OTHER SOLUTION
 const flatAndSort = array => [].concat(...array).sort((a, b) => a - b);
