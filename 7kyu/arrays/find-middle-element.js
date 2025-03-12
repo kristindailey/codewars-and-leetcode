@@ -38,6 +38,9 @@ function gimme(triplet) {
     return triplet.indexOf(middle);
 }
 
+console.log(gimme([2, 7, 9]), 1);
+console.log(gimme([15, 100, 20]), 2);
+
 // OTHER SOLUTIONS
 const gimme = triplet => triplet.indexOf([...triplet].sort((a, b) => a - b)[1]);
 
