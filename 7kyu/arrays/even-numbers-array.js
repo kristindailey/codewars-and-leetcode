@@ -43,6 +43,9 @@ function evenNumbers(array, number) {
     return newArr;
 }
 
+console.log(evenNumbers([1, 2, 3, 4], 1), [4]);
+console.log(evenNumbers([5, 6, 7, 8, 9, 10], 2), [8, 10]);
+
 // OTHER SOLUTIONS
 const evenNumbers = (array, number) => array.filter(item => item % 2 === 0).slice(-number);
 
