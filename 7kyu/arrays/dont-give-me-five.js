@@ -22,9 +22,9 @@ Returns
     // result count may include fives
 Examples 
     // 2, 5
-        // [2, 3, 4]
+        // 3
     //  5, 15
-        // [6, 7, 8, 9, 10, 11, 12, 13, 14]
+        // 9
 Pseudocode 
     // function that takes in two parameters (start, end)
     // make array of numbers from start to end
@@ -39,6 +39,9 @@ function dontGiveMeFive(start, end) {
     let result = arr.filter(num => !num.toString().includes("5"));
     return result.length;
 }
+
+console.log(dontGiveMeFive(2, 5), 3);
+console.log(dontGiveMeFive(5, 15), 9);
 
 // OTHER SOLTIONS
 function dontGiveMeFive(start, end) {
