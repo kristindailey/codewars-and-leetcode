@@ -1,10 +1,10 @@
-/* CHALLENGE DESCRIPTION (ARRAY LADDER)
+/* CHALLENGE DESCRIPTION
 
-JavaScript arrays support a filter function (starting in JavaScript 1.6). Use the filter functionality to complete the function given.
+JavaScript arrays support a filter function. Use the filter functionality to complete the function given.
 
-The solution would work like the following:
+The solution should work like the following:
 
-getEvenNumbers([2,4,5,6]) // should == [2,4,6]
+getEvenNumbers([2, 4, 5, 6]) // should == [2, 4, 6]
 */
 
 /* PREP
