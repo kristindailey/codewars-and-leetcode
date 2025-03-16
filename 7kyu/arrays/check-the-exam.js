@@ -52,6 +52,9 @@ function checkExam(array1, array2) {
     return score < 0 ? 0 : score;
 }
 
+console.log(checkExam(["a", "a", "b", "b"], ["b", "b", "a", "a"]), 0);
+console.log(checkExam(["a", "a", "b", "c"], ["a", "a", "b", "a"]), 11);
+
 // OTHER SOLUTIONS
 function checkExam(array1, array2) {
     let score = 0; 
