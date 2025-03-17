@@ -26,5 +26,8 @@ Pseudocode
 // MY SOLUTION
 const returnEvenElements = array => array.filter(element => element % 2 === 0);
 
-// OTHER SOLUTIONS
+console.log(returnEvenElements([1, 2, 3, 4]), [2, 4]);
+console.log(returnEvenElements([5, 6, 7, 8, 9, 10]), [6, 8, 10]);
+
+// OTHER SOLUTION
 const getEvenNumbers = numbersArray => numbersArray.filter(x => !(x % 2));
