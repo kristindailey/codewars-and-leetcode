@@ -1,6 +1,6 @@
 /* 1768: MERGE STRINGS ALTERNATELY
 
-You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.
+You are given two strings, word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.
 
 Return the merged string.
 
@@ -34,13 +34,26 @@ word1 and word2 consist of lowercase English letters.
 */
 
 // function that takes two str, word1 and word2, only lowercase, never empty
-    // word1.length and word2.length >= 1
-    // word1.length and word2.length <= 100
 // return str, merged word1 and word2, adding chars in alt order
     // if one string is longer than other, append additional chars to end of merged str
 
 function mergeAlternately(word1, word2) {
+    let result = "";
+    const length1 = word1.length;
+    const length2 = word2.length;
+    const maxLength = Math.max(length1, length2);
 
+    for (let i = 0; i < maxLength; i++) {
+        if (i < length1) {
+            result += word1[i];
+        }
+
+        if (i < length2) {
+            result += word2[i];
+        }
+    }
+
+    return result;
 }
 
 console.log(mergeAlternately("abc", "pqr"), "apbqcr");
