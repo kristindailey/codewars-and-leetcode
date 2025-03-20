@@ -1,4 +1,4 @@
-/* CHALLENGE DESCRIPTION (STRING LADDER)
+/* CHALLENGE DESCRIPTION
 
 You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures, or other items. We want to create the text that should be displayed next to such an item.
 
@@ -41,6 +41,9 @@ function returnWhoLikesIt(arr) {
     else if (arr.length === 3) return `${arr[0]}, ${arr[1]} and ${arr[2]} like this`;
     else return `${arr[0]}, ${arr[1]} and ${others} others like this`;
 }
+
+console.log(returnWhoLikesIt(["Willow"]), "Willow likes this");
+console.log(returnWhoLikesIt(["Henry", "Blake", "Taylor", "Robin"]), "Henry, Blake and 2 others like this");
 
 // OTHER SOLUTIONS
 function likes(names) {
