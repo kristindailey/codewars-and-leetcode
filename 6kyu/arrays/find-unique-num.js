@@ -35,6 +35,9 @@ function returnUniqueNum(arr) {
     return arr[0] === arr[1] ? arr[arr.length - 1] : arr[0]; 
 }
 
+console.log(returnUniqueNum([1, 1, 1, 2, 1, 1]), 2);
+console.log(returnUniqueNum([0, 0, 0.55, 0, 0]), 0.55);
+
 // OTHER SOLUTIONS
 function findUniq(arr) {
     return arr.find(n => arr.indexOf(n) === arr.lastIndexOf(n));
