@@ -1,4 +1,4 @@
-/* CHALLENGE DESCRIPTION (ARRAY LADDER)
+/* CHALLENGE DESCRIPTION
 
 Write a function that accepts an array of 10 integers (between 0 and 9) that returns a string of those numbers in the form of a phone number.
 
@@ -33,6 +33,10 @@ Pseudocode
 function createPhoneNumber(numbers) {
     return `(${numbers[0]}${numbers[1]}${numbers[2]}) ${numbers[3]}${numbers[4]}${numbers[5]}-${numbers[6]}${numbers[7]}${numbers[8]}${numbers[9]}`;
 }
+
+console.log(createPhoneNumber([5, 1, 3, 6, 7, 8, 5, 5, 5, 5]), "(513) 678-5555");
+console.log(createPhoneNumber([4, 3, 2, 1, 1, 1, 8, 9, 8, 9]), "(432) 111-8989");
+
 // OTHER SOLUTIONS
 function createPhoneNumber(numbers) {
     let format = "(xxx) xxx-xxxx";
