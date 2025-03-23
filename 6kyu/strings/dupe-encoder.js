@@ -33,10 +33,10 @@ function dupeEncoder(str) {
     return result;
 }
 
-dupeEncoder("din"); // "((("
-dupeEncoder(""); // ""
-dupeEncoder("Success"); // ")())())"
-dupeEncoder("(( @"); // "))(("
+console.log(dupeEncoder("din"), "((("); 
+console.log(dupeEncoder(""), ""); 
+console.log(dupeEncoder("Success"), ")())())");
+console.log(dupeEncoder("(( @"), "))(("); 
 
 // OTHER SOLUTION
 function duplicateEncode(word) {
