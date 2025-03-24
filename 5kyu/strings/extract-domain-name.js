@@ -29,3 +29,6 @@ Pseudocode
 function returnDomain(str) {
     return str.replace("http://", "").replace("https://", "").replace("www.", "").split(".")[0];
 }
+
+console.log(returnDomain("http://github.com/carbonfive/raygun"), "github");
+console.log(returnDomain("https://www.cnet.com"), "cnet");
