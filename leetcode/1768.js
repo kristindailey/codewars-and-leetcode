@@ -59,3 +59,6 @@ function mergeAlternately(word1, word2) {
 console.log(mergeAlternately("abc", "pqr"), "apbqcr");
 console.log(mergeAlternately("ab", "pqrs"), "apbqrs");
 console.log(mergeAlternately("abcd", "pq"), "apbqcd");
+
+// Time complexity: O(n)
+// Space complexity: O(n)
