@@ -25,13 +25,26 @@ Constraints:
 strs[i] consists of lowercase English letters.
 */
 
+// SORTING SOLUTION
 const returnGroupAnagrams = (strs) => {
+    const result = {};
+    
+    for (let str of strs) {
+        const sortedStr = str.split("").sort().join("");
 
+        if (!result[sortedStr]) {
+            result[sortedStr] = [];
+        }
+
+        result[sortedStr].push(str);
+    }
+
+    return Object.values(result);
 };
 
 console.log(returnGroupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]), [["bat"], ["nat", "tan"], ["ate", "eat", "tea"]]);
 console.log(returnGroupAnagrams([""]), [[""]]);
 console.log(returnGroupAnagrams(["a"]), [["a"]]);
 
-// Time complexity: 
-// Space complexity:
+// Time complexity: O(m * n log n)
+// Space complexity: O(m * n)
