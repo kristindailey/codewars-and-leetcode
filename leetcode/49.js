@@ -29,7 +29,7 @@ strs[i] consists of lowercase English letters.
 const returnGroupAnagrams = (strs) => {
     const result = {};
     
-    for (let str of strs) {
+    for (const str of strs) {
         const sortedStr = str.split("").sort().join("");
 
         if (!result[sortedStr]) {
