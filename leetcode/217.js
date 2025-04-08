@@ -23,8 +23,8 @@ Constraints:
 -109 <= nums[i] <= 109
 */
 
-// arr of nums, always be integers, positive, will not be empty
-// return true if val st least twice || false if every val = unique
+// arr of nums, always be integers, positive and negative, will not be empty
+// return true if val appears at least twice || false if every val = unique
 
 // Solved using hashmap
 function containsDupes(arr) {
