@@ -26,27 +26,35 @@ Constraints:
 // arr of nums, always be integers, positive and negative, will not be empty
 // return true if val appears at least twice || false if every val = unique
 
-// Solved using hashmap
-function containsDupes(arr) {
-    // create empty obj
-    const numsMap = {};
-    // if num exists as key in obj, return true (dupe found)
-    // else set numsMap[num] to true (mark num as seen)
-    for (num of arr) {
-      if (numsMap[num]) {
-        return true;
-      } else {
-        numsMap[num] = true;
-      }
+// HASH SET SOLUTION
+const hasDuplicate = (nums) => {
+  const seen = new Set();
+
+  for (const num of nums) {
+    if (seen.has(num)) {
+      return true;
     }
-    // if no dupes, return false (outside of loop)
-    return false;
+    seen.add(num);
+  }
+
+  return false;
 }
 
-// Can also be solved with Set
-function containsDupes(arr) {
-    // create a new Set, removing dupes
-    // if Set.size !== arr.length, return true (has dupes)
-    // else return false (no dupes)
-    return new Set(arr).size !== arr.length;
+console.log(hasDuplicate([1, 2, 3, 1]), true);
+console.log(hasDuplicate([1, 2, 3, 4]), false);
+console.log(hasDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]), true);
+
+// Time complexity: O(n)
+// Space complexity: O(n)
+
+// HASH SET LENGTH SOLUTION
+const containsDupes = (nums) => {
+    return new Set(nums).size !== nums.length;
 }
+
+console.log(containsDupes([1, 2, 3, 1]), true);
+console.log(containsDupes([1, 2, 3, 4]), false);
+console.log(containsDupes([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]), true);
+
+// Time complexity: O(n)
+// Space complexity: O(n)
