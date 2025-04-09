@@ -40,8 +40,7 @@ const isAnagram = (s, t) => {
 console.log(isAnagram("racecar", "carrace"), true);
 console.log(isAnagram("jar", "jam"), false);
 
-// Time complexity: O(n + m)
-    // Where n is s.length and m is t.length
+// Time complexity: O(n)
 // Space complexity: O(1)
 
 // SORTING SOLUTION
