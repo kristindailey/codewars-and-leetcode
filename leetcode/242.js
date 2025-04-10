@@ -15,6 +15,9 @@ Constraints:
 s and t consist of lowercase English letters.
 */
 
+// two strings, will not be empty, only lowercase English letter
+// return true or false, true if anagrams, false if not
+
 // HASH MAP SOLUTION
 const isAnagram = (s, t) => {
     if (s.length !== t.length) {
