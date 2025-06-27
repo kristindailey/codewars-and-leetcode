@@ -1,6 +1,6 @@
 /* CHALLENGE DESCRIPTION
 
-Create a function which answers the question "Are you playing banjo?."
+Write a function which answers the question "Are you playing banjo?"
 
 If your name starts with the letter "R" or lowercase "r," you are playing banjo!
 
