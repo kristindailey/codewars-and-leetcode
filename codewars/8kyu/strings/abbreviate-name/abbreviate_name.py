@@ -18,3 +18,9 @@ def abbrev_name(name):
     space_index = name.find(" ")
     second_initial = name[space_index + 1].upper()
     return f"{first_initial}.{second_initial}"
+
+# Return S.H
+print(abbrev_name("Sam Harris")) 
+
+# Return P.F
+print(abbrev_name("patrick feeney"))
