@@ -14,3 +14,12 @@ Examples (input --> output):
 # MY SOLUTION
 def number_to_string(num):
     return str(num)
+
+# Print "123"
+print(number_to_string(123))
+
+# Print "999"
+print(number_to_string(999))
+
+# Print "-100"
+print(number_to_string(-100))
