@@ -18,3 +18,9 @@ def are_you_playing_banjo(name):
         return f"{name} plays banjo"
     
     return f"{name} does not play banjo"
+
+# Print "ravin plays banjo"
+print(are_you_playing_banjo("ravin"))
+
+# Print "Joe does not play banjo"
+print(are_you_playing_banjo("Joe"))
