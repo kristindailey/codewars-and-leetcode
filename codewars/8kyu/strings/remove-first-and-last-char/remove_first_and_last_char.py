@@ -9,3 +9,9 @@ Important: Your function should handle strings of any length ≥ 2 characters. F
 # MY SOLUTION
 def remove_char(str):
     return str[1:-1]
+
+# Print "ell"
+print(remove_char("hello"))
+
+# Print ""
+print(remove_char("ab"))
