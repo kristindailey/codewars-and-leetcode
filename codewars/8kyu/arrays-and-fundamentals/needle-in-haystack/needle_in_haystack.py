@@ -18,7 +18,7 @@ Example (Input --> Output):
 def find_needle(haystack):
     for index, junk in enumerate(haystack):
         if junk == "needle":
-            return f"found the needle as position {index}"
+            return f"found the needle at position {index}"
         
 # Return "found the needle at position 5" 
 print(find_needle(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]))
